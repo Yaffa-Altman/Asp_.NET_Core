@@ -1,10 +1,11 @@
 using _2025_02_18.Models;
+using _2025_02_25.interfaces;
 namespace _2025_02_18.Services;
-public class MyShoesService
+public class MyShoesService : IShoesService
 {
-    private static List<MyShoes> myList;
+    private List<MyShoes> myList;
 
-    static MyShoesService()
+    public MyShoesService()
     {
         myList = new List<MyShoes> {
             new MyShoes{Id = 1, Description = "High heels", isElegant = true},
@@ -13,16 +14,16 @@ public class MyShoesService
             new MyShoes{Id = 4, Description = "Slippers", isElegant = false},
         };
     }
-    public static MyShoes Get(int id)
+    public MyShoes Get(int id)
     {
         var shoes = myList.FirstOrDefault(p => p.Id == id);
         return shoes;
     }
-    public static List<MyShoes> Get()
+    public List<MyShoes> Get()
     {
         return myList;
     }
-    public static int Add(MyShoes shoes)
+    public int Add(MyShoes shoes)
     {
         if (shoes == null 
             || string.IsNullOrWhiteSpace(shoes.Description))
@@ -34,7 +35,7 @@ public class MyShoesService
 
         return shoes.Id;
     }
-    public static bool Update(int id, MyShoes shoes)
+    public bool Update(int id, MyShoes shoes)
     {
         if (shoes == null 
             || string.IsNullOrWhiteSpace(shoes.Description)
@@ -52,7 +53,7 @@ public class MyShoesService
 
         return true;
     }
-    public static bool Delete(int id)
+    public bool Delete(int id)
     {
         MyShoes shoes = myList.FirstOrDefault(p => p.Id == id);
         if (shoes == null)
@@ -63,4 +64,12 @@ public class MyShoesService
 
         return true;
     } 
+}
+
+public static class MyShoesUtilities
+{
+    public static void AddShoesConst(this IServiceCollection services)
+    {
+        services.AddSingleton<IShoesService, MyShoesService>();
+    }
 }
