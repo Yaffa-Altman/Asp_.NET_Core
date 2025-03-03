@@ -33,3 +33,4 @@ Z:\B\אלטמן יפה\Core\Home Work\2025-02-11\obj\Debug\net8.0\refint\2025-02
 Z:\B\אלטמן יפה\Core\Home Work\2025-02-11\obj\Debug\net8.0\2025-02-11.pdb
 Z:\B\אלטמן יפה\Core\Home Work\2025-02-11\obj\Debug\net8.0\2025-02-11.genruntimeconfig.cache
 Z:\B\אלטמן יפה\Core\Home Work\2025-02-11\obj\Debug\net8.0\ref\2025-02-11.dll
+Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\2025-02-11.pdb
