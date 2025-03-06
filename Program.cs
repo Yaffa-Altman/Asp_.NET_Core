@@ -1,4 +1,6 @@
 using _2025_02_18.Services;
+using Core.Middleware;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -17,6 +19,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseLog();
+
+app.UseError();
 
 app.UseHttpsRedirection();
 

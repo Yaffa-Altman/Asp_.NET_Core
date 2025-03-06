@@ -69,3 +69,39 @@ Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets.pack.json
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\2025-02-11.csproj.Up2Date
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\2025-02-11.genruntimeconfig.cache
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\ref\2025-02-11.dll
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.csproj.AssemblyReference.cache
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.AssemblyInfoInputs.cache
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.AssemblyInfo.cs
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.csproj.CoreCompileInputs.cache
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.sourcelink.json
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.dll
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\refint\2025-02-11.dll
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.pdb
+C:\Users\huser\Documents\GitHub\Core\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\huser\Documents\GitHub\Core\bin\Debug\net8.0\appsettings.json
+C:\Users\huser\Documents\GitHub\Core\bin\Debug\net8.0\2025-02-11.staticwebassets.endpoints.json
+C:\Users\huser\Documents\GitHub\Core\bin\Debug\net8.0\2025-02-11.exe
+C:\Users\huser\Documents\GitHub\Core\bin\Debug\net8.0\2025-02-11.deps.json
+C:\Users\huser\Documents\GitHub\Core\bin\Debug\net8.0\2025-02-11.runtimeconfig.json
+C:\Users\huser\Documents\GitHub\Core\bin\Debug\net8.0\2025-02-11.dll
+C:\Users\huser\Documents\GitHub\Core\bin\Debug\net8.0\2025-02-11.pdb
+C:\Users\huser\Documents\GitHub\Core\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\huser\Documents\GitHub\Core\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\huser\Documents\GitHub\Core\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\huser\Documents\GitHub\Core\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\scopedcss\bundle\2025-02-11.styles.css
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\staticwebassets\msbuild.2025-02-11.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\staticwebassets\msbuild.2025-02-11.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\staticwebassets\msbuild.build.2025-02-11.props
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.2025-02-11.props
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.2025-02-11.props
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.csproj.Up2Date
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.genruntimeconfig.cache
+C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\ref\2025-02-11.dll
