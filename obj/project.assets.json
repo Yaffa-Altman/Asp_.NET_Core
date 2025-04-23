@@ -453,11 +453,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\huser\\Documents\\GitHub\\Core\\2025-02-11.csproj",
+      "projectUniqueName": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\2025-02-11.csproj",
       "projectName": "2025-02-11",
-      "projectPath": "C:\\Users\\huser\\Documents\\GitHub\\Core\\2025-02-11.csproj",
+      "projectPath": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\2025-02-11.csproj",
       "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\huser\\Documents\\GitHub\\Core\\obj\\",
+      "outputPath": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

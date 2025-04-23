@@ -3,25 +3,34 @@ using Core.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
 builder.Services.AddShoesConst();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAuthorization(c =>
+{
+    c.AddPolicy("Admin",
+        policy => policy.RequireClaim("type", "Admin"));
+    c.AddPolicy("User",
+        policy => policy.RequireClaim("type", "Admin", "User"));
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    // app.MapScalarApiReference(options =>
+    //     options.WithTheme(ScalarTheme.Mars)
+    // );
 }
-app.UseLog();
 
-app.UseError();
+// app.UseLog();
+// app.UseError();
+app.MapGet("/", () => Results.Redirect("/index.html"));
+
+app.UseStaticFiles();
 
 app.UseHttpsRedirection();
 
@@ -30,3 +39,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+

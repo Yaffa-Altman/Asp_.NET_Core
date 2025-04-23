@@ -1,69 +1,70 @@
+using System.Text.Json;
 using _2025_02_18.Models;
 using _2025_02_25.interfaces;
 namespace _2025_02_18.Services;
 public class MyShoesService : IShoesService
 {
-    private List<MyShoes> myList;
+    List<MyShoes> Shoes { get; }
+    private static string fileName = "myShoes.json";
+    private string filePath;
 
-    public MyShoesService()
+    public MyShoesService(IHostEnvironment env)
     {
-        myList = new List<MyShoes> {
-            new MyShoes{Id = 1, Description = "High heels", isElegant = true},
-            new MyShoes{Id = 2, Description = "Sneakers", isElegant = false},
-            new MyShoes{Id = 3, Description = "Elegant flat shoes", isElegant = true},
-            new MyShoes{Id = 4, Description = "Slippers", isElegant = false},
-        };
+        filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
+
+        using (var jsonFile = File.OpenText(filePath))
+        {
+            Shoes = JsonSerializer.Deserialize<List<MyShoes>>(jsonFile.ReadToEnd(),
+            new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true
+            });
+        }
     }
-    public MyShoes Get(int id)
+
+    private void saveToFile()
     {
-        var shoes = myList.FirstOrDefault(p => p.Id == id);
-        return shoes;
+        File.WriteAllText(filePath, JsonSerializer.Serialize(Shoes));
     }
-    public List<MyShoes> Get()
-    {
-        return myList;
-    }
+    public MyShoes Get(int id) => Shoes.FirstOrDefault(p => p.Id == id);
+    public List<MyShoes> Get() => Shoes;
     public int Add(MyShoes shoes)
     {
-        if (shoes == null 
-            || string.IsNullOrWhiteSpace(shoes.Description))
+        if (shoes == null)
             return -1;
-
-        int maxId = myList.Max(p => p.Id);
+        int maxId = Shoes.Max(p => p.Id);
         shoes.Id = maxId + 1;
-        myList.Add(shoes);
-
+        Shoes.Add(shoes);
+        saveToFile();
         return shoes.Id;
     }
     public bool Update(int id, MyShoes shoes)
     {
-        if (shoes == null 
+        if (shoes == null
             || string.IsNullOrWhiteSpace(shoes.Description)
             || shoes.Id != id)
         {
             return false;
         }
-        
-        MyShoes shs = myList.FirstOrDefault(p => p.Id == id);
+
+        MyShoes shs = Shoes.FirstOrDefault(p => p.Id == id);
         if (shs == null)
             return false;
-        
-        var index = myList.IndexOf(shs);
-        myList[index] = shoes;
 
+        var index = Shoes.IndexOf(shs);
+        Shoes[index] = shoes;
+        saveToFile();
         return true;
     }
     public bool Delete(int id)
     {
-        MyShoes shoes = myList.FirstOrDefault(p => p.Id == id);
-        if (shoes == null)
+        MyShoes shoes = Get(id);
+        if (shoes is null)
             return false;
-
-        int index = myList.IndexOf(shoes);
-        myList.RemoveAt(index);
-
+        Shoes.Remove(shoes);
+        saveToFile();
         return true;
-    } 
+    }
 }
 
 public static class MyShoesUtilities

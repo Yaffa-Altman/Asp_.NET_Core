@@ -46,7 +46,6 @@ Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\2025-02-11.dll
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\refint\2025-02-11.dll
 Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\appsettings.Development.json
 Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\appsettings.json
-Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\2025-02-11.staticwebassets.endpoints.json
 Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\2025-02-11.exe
 Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\2025-02-11.deps.json
 Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\2025-02-11.runtimeconfig.json
@@ -59,14 +58,11 @@ Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\Swashbuckle.AspNetCore.Sw
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\scopedcss\bundle\2025-02-11.styles.css
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets.build.json
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets.development.json
-Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets\msbuild.2025-02-11.Microsoft.AspNetCore.StaticWebAssets.props
-Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets\msbuild.2025-02-11.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets\msbuild.build.2025-02-11.props
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.2025-02-11.props
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.2025-02-11.props
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets.pack.json
-Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\2025-02-11.csproj.Up2Date
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\2025-02-11.genruntimeconfig.cache
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\ref\2025-02-11.dll
 C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.csproj.AssemblyReference.cache
@@ -105,3 +101,10 @@ C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.csproj.Up2Date
 C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\2025-02-11.genruntimeconfig.cache
 C:\Users\huser\Documents\GitHub\Core\obj\Debug\net8.0\ref\2025-02-11.dll
+Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\2025-02-11.staticwebassets.runtime.json
+Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\2025-02-11.staticwebassets.endpoints.json
+Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets\msbuild.2025-02-11.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\2025-02-11.csproj.Up2Date
+Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\Data\myShoes.json
+Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\myShoes.json
