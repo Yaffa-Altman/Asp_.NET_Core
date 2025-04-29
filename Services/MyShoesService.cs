@@ -1,7 +1,7 @@
 using System.Text.Json;
-using _2025_02_18.Models;
-using _2025_02_25.interfaces;
-namespace _2025_02_18.Services;
+using CoreProject.Models;
+using CoreProject.interfaces;
+namespace CoreProject.Services;
 public class MyShoesService : IShoesService
 {
     List<MyShoes> Shoes { get; }

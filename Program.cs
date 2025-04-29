@@ -1,4 +1,4 @@
-using _2025_02_18.Services;
+using CoreProject.Services;
 using Core.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -4,7 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>_2025_02_11</RootNamespace>
+    <RootNamespace>CoreProject</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

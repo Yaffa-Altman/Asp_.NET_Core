@@ -108,3 +108,4 @@ Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\staticwebassets\msbuild.2
 Z:\B\אלטמן יפה\Core\Core\Core\obj\Debug\net8.0\2025-02-11.csproj.Up2Date
 Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\Data\myShoes.json
 Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\myShoes.json
+Z:\B\אלטמן יפה\Core\Core\Core\bin\Debug\net8.0\Data\user.json

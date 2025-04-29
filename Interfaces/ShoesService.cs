@@ -1,5 +1,5 @@
-using _2025_02_18.Models;
-namespace _2025_02_25.interfaces;
+using CoreProject.Models;
+namespace CoreProject.interfaces;
 public interface IShoesService
 {
     MyShoes Get(int id);

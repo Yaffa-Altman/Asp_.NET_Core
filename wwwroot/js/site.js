@@ -1,5 +1,4 @@
 const uri = '/MyShoes';
-
 let shoes = [];
 
 const getItems = () => {

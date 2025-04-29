@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using _2025_02_18.Models;
-using _2025_02_25.interfaces;
+using CoreProject.Models;
+using CoreProject.interfaces;
 
-namespace _2025_02_18.Controllers;
+namespace CoreProject.Controllers;
 
 [ApiController]
 [Route("[controller]")]

@@ -1,4 +1,4 @@
-namespace _2025_02_18.Models;
+namespace CoreProject.Models;
 
 public class MyShoes
 {

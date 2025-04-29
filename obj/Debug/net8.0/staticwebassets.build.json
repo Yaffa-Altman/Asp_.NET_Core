@@ -1,27 +1,27 @@
 {
   "Version": 1,
-  "Hash": "i07IxRBHU+XHdkioet1ya9MSakMB/u1mWaKSqsXXVwg=",
-  "Source": "2025-02-11",
-  "BasePath": "_content/2025-02-11",
+  "Hash": "/TZ9BIlHCsUFiYcClMTz/QO55I0AQe4bmgZUOMUrZag=",
+  "Source": "CoreProject",
+  "BasePath": "_content/CoreProject",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "2025-02-11\\wwwroot",
-      "Source": "2025-02-11",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\",
-      "BasePath": "_content/2025-02-11",
+      "Name": "CoreProject\\wwwroot",
+      "Source": "CoreProject",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\",
+      "BasePath": "_content/CoreProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\assets\\icon.jpg",
-      "SourceId": "2025-02-11",
+      "Identity": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\assets\\icon.jpg",
+      "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\",
-      "BasePath": "_content/2025-02-11",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\",
+      "BasePath": "_content/CoreProject",
       "RelativePath": "assets/icon#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -38,11 +38,11 @@
       "OriginalItemSpec": "wwwroot\\assets\\icon.jpg"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\assets\\Thumbs.db",
-      "SourceId": "2025-02-11",
+      "Identity": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\assets\\Thumbs.db",
+      "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\",
-      "BasePath": "_content/2025-02-11",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\",
+      "BasePath": "_content/CoreProject",
       "RelativePath": "assets/Thumbs#[.{fingerprint}]?.db",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -59,11 +59,11 @@
       "OriginalItemSpec": "wwwroot\\assets\\Thumbs.db"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\css\\site.css",
-      "SourceId": "2025-02-11",
+      "Identity": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\css\\site.css",
+      "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\",
-      "BasePath": "_content/2025-02-11",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\",
+      "BasePath": "_content/CoreProject",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -73,18 +73,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wl7hodgdtn",
-      "Integrity": "xOxgDuiuSuU17NMKuwiDKGD83rtyJVh5VQj0OH3GILA=",
+      "Fingerprint": "zoxlk5se5i",
+      "Integrity": "06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\index.html",
-      "SourceId": "2025-02-11",
+      "Identity": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\index.html",
+      "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\",
-      "BasePath": "_content/2025-02-11",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\",
+      "BasePath": "_content/CoreProject",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -101,11 +101,11 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\js\\site.js",
-      "SourceId": "2025-02-11",
+      "Identity": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\js\\site.js",
+      "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\",
-      "BasePath": "_content/2025-02-11",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\",
+      "BasePath": "_content/CoreProject",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "2hq3kueoib",
-      "Integrity": "OqsmQo/u+d2H0q79M+rwRURfffKvzCufRGy6fMyQ130=",
+      "Fingerprint": "369tfsf8vh",
+      "Integrity": "Vd1Z/7E//6eTbbYTNJBYFq3AYdJ57ykmXoRpk+cdTVs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -125,7 +125,7 @@
   "Endpoints": [
     {
       "Route": "assets/icon.1mpbm214k0.jpg",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\assets\\icon.jpg",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\assets\\icon.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -170,7 +170,7 @@
     },
     {
       "Route": "assets/icon.jpg",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\assets\\icon.jpg",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\assets\\icon.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -207,7 +207,7 @@
     },
     {
       "Route": "assets/Thumbs.db",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\assets\\Thumbs.db",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\assets\\Thumbs.db",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -244,7 +244,7 @@
     },
     {
       "Route": "assets/Thumbs.jk9mzl7uwt.db",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\assets\\Thumbs.db",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\assets\\Thumbs.db",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -289,7 +289,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\css\\site.css",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -298,7 +298,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "338"
+          "Value": "332"
         },
         {
           "Name": "Content-Type",
@@ -306,11 +306,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xOxgDuiuSuU17NMKuwiDKGD83rtyJVh5VQj0OH3GILA=\""
+          "Value": "\"06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 18:20:08 GMT"
+          "Value": "Tue, 29 Apr 2025 15:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -320,13 +320,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xOxgDuiuSuU17NMKuwiDKGD83rtyJVh5VQj0OH3GILA="
+          "Value": "sha256-06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4="
         }
       ]
     },
     {
-      "Route": "css/site.wl7hodgdtn.css",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\css\\site.css",
+      "Route": "css/site.zoxlk5se5i.css",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -335,7 +335,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "338"
+          "Value": "332"
         },
         {
           "Name": "Content-Type",
@@ -343,11 +343,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xOxgDuiuSuU17NMKuwiDKGD83rtyJVh5VQj0OH3GILA=\""
+          "Value": "\"06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 18:20:08 GMT"
+          "Value": "Tue, 29 Apr 2025 15:11:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -357,7 +357,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wl7hodgdtn"
+          "Value": "zoxlk5se5i"
         },
         {
           "Name": "label",
@@ -365,13 +365,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xOxgDuiuSuU17NMKuwiDKGD83rtyJVh5VQj0OH3GILA="
+          "Value": "sha256-06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4="
         }
       ]
     },
     {
       "Route": "index.html",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\index.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -408,7 +408,7 @@
     },
     {
       "Route": "index.svn243k38z.html",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\index.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -452,8 +452,8 @@
       ]
     },
     {
-      "Route": "js/site.2hq3kueoib.js",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\js\\site.js",
+      "Route": "js/site.369tfsf8vh.js",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -462,7 +462,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3728"
+          "Value": "3701"
         },
         {
           "Name": "Content-Type",
@@ -470,11 +470,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OqsmQo/u+d2H0q79M+rwRURfffKvzCufRGy6fMyQ130=\""
+          "Value": "\"Vd1Z/7E//6eTbbYTNJBYFq3AYdJ57ykmXoRpk+cdTVs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 14:18:25 GMT"
+          "Value": "Tue, 29 Apr 2025 15:12:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -484,7 +484,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2hq3kueoib"
+          "Value": "369tfsf8vh"
         },
         {
           "Name": "label",
@@ -492,13 +492,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OqsmQo/u+d2H0q79M+rwRURfffKvzCufRGy6fMyQ130="
+          "Value": "sha256-Vd1Z/7E//6eTbbYTNJBYFq3AYdJ57ykmXoRpk+cdTVs="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Core\\wwwroot\\js\\site.js",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\aaa\\Core\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -507,7 +507,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3728"
+          "Value": "3701"
         },
         {
           "Name": "Content-Type",
@@ -515,11 +515,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OqsmQo/u+d2H0q79M+rwRURfffKvzCufRGy6fMyQ130=\""
+          "Value": "\"Vd1Z/7E//6eTbbYTNJBYFq3AYdJ57ykmXoRpk+cdTVs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 14:18:25 GMT"
+          "Value": "Tue, 29 Apr 2025 15:12:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -529,7 +529,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OqsmQo/u+d2H0q79M+rwRURfffKvzCufRGy6fMyQ130="
+          "Value": "sha256-Vd1Z/7E//6eTbbYTNJBYFq3AYdJ57ykmXoRpk+cdTVs="
         }
       ]
     }

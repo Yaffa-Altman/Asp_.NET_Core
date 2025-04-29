@@ -1,4 +1,4 @@
-namespace _2025_02_11;
+namespace CoreProject;
 
 public class WeatherForecast
 {
