@@ -1,0 +1,27 @@
+[
+    {
+        "Id": 1,
+        "Name": "Nike Air Max 270",
+        "isElegant": true
+    },
+    {
+        "Id": 2,
+        "Name": "Adidas Yeezy Boost 350",
+        "isElegant": true
+    },
+    {
+        "Id": 3,
+        "Name": "Converse Chuck Taylor",
+        "isElegant": false
+    },
+    {
+        "Id": 4,
+        "Name": "New Balance 990",
+        "isElegant": true
+    },
+    {
+        "Id": 5,
+        "Name": "Vans Old Skool",
+        "isElegant": false
+    }
+]

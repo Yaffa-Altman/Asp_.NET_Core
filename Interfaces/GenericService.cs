@@ -1,10 +1,10 @@
 using CoreProject.Models;
 namespace CoreProject.interfaces;
-public interface IGenericService<T>
+public interface IGenericService<T> where T : GenericId 
 {
     T Get(int id);
     List<T> Get();
-    String Add(T shoes);
+    int Add(T shoes);
     bool Update(int id, T shoes);
     bool Delete(int id);
 }

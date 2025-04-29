@@ -1,10 +1,13 @@
 using CoreProject.Services;
 using Core.Middleware;
+using CoreProject.interfaces;
+using CoreProject.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-builder.Services.AddShoesConst();
+builder.Services.AddItemsConst<Shoes>();
+builder.Services.AddItemsConst<User>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAuthorization(c =>

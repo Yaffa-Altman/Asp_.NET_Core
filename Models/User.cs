@@ -1,6 +1,5 @@
 namespace CoreProject.Models;
-public class User
+public class User : GenericId
 {
-    public string Name { get; set; }
     public string Password { get; set; }
 }

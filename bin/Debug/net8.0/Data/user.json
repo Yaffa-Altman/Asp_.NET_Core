@@ -1,16 +1,27 @@
 [
     {
-        "name": "Ari",
-        "password": "1234"
-    },{
-        "name": "Shalom",
-        "password": "rthtr"
-    },{
-        "name": "GGG",
-        "password": "rgdsfbdf"
-    },{
-        "name": "Geli",
-        "password": "54564"
+        "Id": 1,
+        "Name": "John Doe",
+        "Password": "SecurePassword123!"
+    },
+    {
+        "Id": 2,
+        "Name": "Jane Smith",
+        "Password": "AnotherSecurePassword!"
+    },
+    {
+        "Id": 3,
+        "Name": "Alice Johnson",
+        "Password": "PasswordForAlice!"
+    },
+    {
+        "Id": 4,
+        "Name": "Bob Brown",
+        "Password": "BobPassword2023!"
+    },
+    {
+        "Id": 5,
+        "Name": "Charlie White",
+        "Password": "CharlieIsSecure!"
     }
-
 ]
