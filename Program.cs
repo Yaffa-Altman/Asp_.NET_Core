@@ -2,14 +2,21 @@ using CoreProject.Services;
 using Core.Middleware;
 using CoreProject.interfaces;
 using CoreProject.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
-builder.Services.AddItemsConst<Shoes>();
-builder.Services.AddItemsConst<User>();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddAuthentication(options =>
+                {
+                    options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+                })
+                .AddJwtBearer(cfg =>
+                {
+                    cfg.RequireHttpsMetadata = false;
+                    cfg.TokenValidationParameters =
+                        TokenService.GetTokenValidationParameters();
+                });
+
 builder.Services.AddAuthorization(c =>
 {
     c.AddPolicy("Admin",
@@ -17,6 +24,12 @@ builder.Services.AddAuthorization(c =>
     c.AddPolicy("User",
         policy => policy.RequireClaim("type", "Admin", "User"));
 });
+
+builder.Services.AddControllers();
+builder.Services.AddItemsConst<Shoes>();
+builder.Services.AddItemsConst<User>();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
@@ -38,6 +51,8 @@ app.UseStaticFiles();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseAuthentication();
 
 app.MapControllers();
 
