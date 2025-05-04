@@ -1,42 +1,29 @@
-using System.Text.Json;
 using CoreProject.Models;
 using CoreProject.interfaces;
+
 namespace CoreProject.Services;
+
 public class GenericService<T> : IGenericService<T> where T : GenericId
 {
+    private JsonService<T> jsonService;
     List<T> Items { get; }
-    private static string fileName = $"{typeof(T).Name}.json";
-    private string filePath;
 
-    public GenericService(IHostEnvironment env)
-    {
-        filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
-
-        using (var jsonFile = File.OpenText(filePath))
-        {
-            Items = JsonSerializer.Deserialize<List<T>>(jsonFile.ReadToEnd(),
-            new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            });
-        }
+    public GenericService(IHostEnvironment env){
+        jsonService = new JsonService<T>(env);
+        Items = jsonService.GetItems();
     }
 
-    private void saveToFile()
-    {
-        File.WriteAllText(filePath, JsonSerializer.Serialize(Items));
-    }
     public T Get(int id) => Items.FirstOrDefault(p => p.Id == id);
     public List<T> Get() => Items;
     public int Add(T item)
     {
-        if (item.Id == null || item.Name == null
+        if (item.Name == null
         || (typeof(T).Name == "User" && string.IsNullOrWhiteSpace(typeof(T).GetProperty("Password")?.GetValue(item)?.ToString())))
             return -1;
         int maxId = Items.Max(p => p.Id);
         item.Id = maxId + 1;
         Items.Add(item);
-        saveToFile();
+        jsonService.saveToFile();
         return item.Id;
     }
     public bool Update(int id, T item)
@@ -49,13 +36,13 @@ public class GenericService<T> : IGenericService<T> where T : GenericId
             return false;
         }
 
-        T shs = Items.FirstOrDefault(p => p.Id == id);
+        T shs = Items?.FirstOrDefault(p => p.Id == id);
         if (shs == null)
             return false;
 
         var index = Items.IndexOf(shs);
         Items[index] = item;
-        saveToFile();
+        jsonService.saveToFile();
         return true;
     }
     public bool Delete(int id)
@@ -64,7 +51,7 @@ public class GenericService<T> : IGenericService<T> where T : GenericId
         if (item is null)
             return false;
         Items.Remove(item);
-        saveToFile();
+        jsonService.saveToFile();
         return true;
     }
 }

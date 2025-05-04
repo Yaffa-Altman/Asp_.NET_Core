@@ -22,15 +22,5 @@
         "Id": 5,
         "Name": "Shlomo Friedman",
         "Password": "ShlomoFriedman2023!"
-    },
-    {
-        "Id": 6,
-        "Name": "Yaffi Altman",
-        "Password": "YaffiPassword"
-    },
-    {
-        "Id": 7,
-        "Name": "Tzipi Klarberg",
-        "Password": "TzipiPassword"
     }
 ]

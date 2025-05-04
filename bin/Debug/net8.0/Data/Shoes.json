@@ -1,38 +1,31 @@
-[
-    {
+[{
         "Id": 1,
-        "Name": "Nike Air Max 270",
+        "Name": "Adidas UltraBoost",
         "isElegant": true,
-        "UserName": "John Doe"
+        "UserId": 1
     },
     {
         "Id": 2,
-        "Name": "Adidas Yeezy Boost 350",
-        "isElegant": true,
-        "UserName": "Jane Smith"
+        "Name": "Nike Air Force 1",
+        "isElegant": false,
+        "UserId": 2
     },
     {
         "Id": 3,
-        "Name": "Converse Chuck Taylor",
-        "isElegant": false,
-        "UserName": "Alice Johnson"
+        "Name": "Puma RS-X",
+        "isElegant": true,
+        "UserId": 3
     },
     {
         "Id": 4,
-        "Name": "New Balance 990",
-        "isElegant": true,
-        "UserName": "Bob Brown"
+        "Name": "Reebok Classic",
+        "isElegant": false,
+        "UserId": 4
     },
     {
         "Id": 5,
-        "Name": "Vans Old Skool",
-        "isElegant": false,
-        "UserName": "Charlie White"
-    },
-    {
-        "Id": 6,
-        "Name": "נעלי עקב wow",
+        "Name": "New Balance 574",
         "isElegant": true,
-        "UserName": "Charlie White"
+        "UserId": 6
     }
 ]

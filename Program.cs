@@ -26,6 +26,9 @@ builder.Services.AddAuthorization(c =>
 });
 
 builder.Services.AddControllers();
+builder.Services.AddHttpContextAccessor(); 
+builder.Services.AddScoped(typeof(ActiveUser)); 
+builder.Services.AddScoped(typeof(JsonService<>));
 builder.Services.AddItemsConst<Shoes>();
 builder.Services.AddItemsConst<User>();
 builder.Services.AddEndpointsApiExplorer();

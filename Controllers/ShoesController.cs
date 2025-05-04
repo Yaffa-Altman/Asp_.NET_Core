@@ -1,27 +1,33 @@
 using Microsoft.AspNetCore.Mvc;
 using CoreProject.Models;
 using CoreProject.interfaces;
+using CoreProject.Services;
+using Microsoft.AspNetCore.Authorization;
+using System.Linq;
+
 
 namespace CoreProject.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[Authorize(Policy = "User")]//אין לactive user type...
 public class ShoesController : ControllerBase
 {
 
+    private User activeUser;
     private IGenericService<Shoes> shoesService;
 
-    public ShoesController(IGenericService<Shoes> shoesService)
+    public ShoesController(IGenericService<Shoes> shoesService, ActiveUser au)
     {
         this.shoesService = shoesService;
-
+        this.activeUser = au.GetActiveUser();
     }
 
     [HttpGet("{id}")]
     public ActionResult<Shoes> Get(int id)
     {
         Shoes shoes = shoesService.Get(id);
-        if (shoes == null)
+        if (shoes == null || shoes.UserId != activeUser.Id)
             return NotFound();
         return shoes;
     }
@@ -29,12 +35,14 @@ public class ShoesController : ControllerBase
     [HttpGet()]
     public ActionResult<IEnumerable<Shoes>> Get()
     {
-        return shoesService.Get();
+        var filteredShoes = shoesService.Get().Where(s => s.UserId == activeUser.Id);
+        return Ok(filteredShoes); 
     }
 
     [HttpPost()]
     public ActionResult Post(Shoes shoes)
     {
+        shoes.UserId = activeUser.Id;
         int result = shoesService.Add(shoes);
         if(result == -1)
         {
@@ -46,6 +54,7 @@ public class ShoesController : ControllerBase
     [HttpPut("{id}")]
     public ActionResult Put(int id, Shoes shoes)
     {
+        shoes.UserId = activeUser.Id;
         bool result = shoesService.Update(id,shoes);
         if(result){
             return NoContent();

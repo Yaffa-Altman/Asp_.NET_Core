@@ -1,4 +1,4 @@
-const uri = '/MyShoes';
+const uri = '/Shoes';
 let shoes = [];
 
 const getItems = () => {

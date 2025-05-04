@@ -1,1 +1,36 @@
-[{"Password":"AnotherSecurePassword!","Id":2,"Name":"Jane Smith"},{"Password":"PasswordForAlice!","Id":3,"Name":"Alice Johnson"},{"Password":"BobPassword2023!","Id":4,"Name":"Bob Brown"},{"Password":"CharlieIsSecure!","Id":5,"Name":"Charlie White"}]
+[{
+        "Id": 1,
+        "Name": "David Cohen",
+        "Password": "SecurePass123!"
+    },
+    {
+        "Id": 2,
+        "Name": "Miriam Levi",
+        "Password": "MiriamPassword2023!"
+    },
+    {
+        "Id": 3,
+        "Name": "Yaakov Schwartz",
+        "Password": "YaakovSecure2023!"
+    },
+    {
+        "Id": 4,
+        "Name": "Rachel Goldstein",
+        "Password": "RachelPassword!"
+    },
+    {
+        "Id": 5,
+        "Name": "Shlomo Friedman",
+        "Password": "ShlomoFriedman2023!"
+    },
+    {
+        "Id": 6,
+        "Name": "Yaffi Altman",
+        "Password": "YaffiPassword"
+    },
+    {
+        "Id": 7,
+        "Name": "Tzipi Klarberg",
+        "Password": "TzipiPassword"
+    }
+]

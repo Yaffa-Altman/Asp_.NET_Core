@@ -2,6 +2,7 @@
 using CoreProject.interfaces;
 using CoreProject.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 namespace CoreProject.Controllers;
 
 [ApiController]
@@ -19,8 +20,6 @@ public class UserController : ControllerBase
     
     }
 
-
-
     [HttpGet("{id}")]
     public ActionResult<User> Get(int id)
     {
@@ -31,12 +30,14 @@ public class UserController : ControllerBase
     }
 
     [HttpGet()]
+    [Authorize(Policy = "Admin")]
     public ActionResult<IEnumerable<User>> Get()
     {
         return userService.Get();
     }
 
     [HttpPost()]
+    [Authorize(Policy = "Admin")]
     public ActionResult Post(User user)
     {
         int result = userService.Add(user);
@@ -58,19 +59,20 @@ public class UserController : ControllerBase
     // }
 
     [HttpDelete("{id}")]
+    [Authorize(Policy = "Admin")]
     public ActionResult Delete(int id)
     {
-        var item = Get(id);
-        if (item == null)
-        {
-            return NotFound();
-        }
-        var user = item.Value as User;
-        string name = user.Name;
+        // var item = Get(id);
+        // if (item == null)
+        // {
+        //     return NotFound();
+        // }
+        // var user = item.Value as User;
+        // string name = user.Name;
         var shoesResult = shoesService.Get(); 
         List<Shoes> shoes = shoesResult as List<Shoes>;
 
-        shoes.RemoveAll(shoe => shoe.UserName == name && shoesService.Delete(shoe.Id));
+        shoes.RemoveAll(shoe => shoe.UserId == id && shoesService.Delete(shoe.Id));
         bool result = userService.Delete(id);
         if (result)
         {
