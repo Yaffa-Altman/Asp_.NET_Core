@@ -1,24 +1,28 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Project\\Core\\wwwroot\\assets\\Thumbs.db",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
       "PackagePath": "staticwebassets\\assets\\Thumbs.db"
     },
     {
-      "Id": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Project\\Core\\wwwroot\\assets\\icon.jpg",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
       "PackagePath": "staticwebassets\\assets\\icon.jpg"
     },
     {
-      "Id": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Project\\Core\\wwwroot\\css\\site.css",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Project\\Core\\wwwroot\\index.html",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Project\\Core\\wwwroot\\js\\site.js",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoreProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoreProject.Microsoft.AspNetCore.StaticWebAssets.props",

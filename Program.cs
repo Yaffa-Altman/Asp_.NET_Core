@@ -33,6 +33,7 @@ builder.Services.AddItemsConst<Shoes>();
 builder.Services.AddItemsConst<User>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<ActiveUser>();
 
 var app = builder.Build();
 
@@ -60,4 +61,5 @@ app.UseAuthentication();
 app.MapControllers();
 
 app.Run();
+
 

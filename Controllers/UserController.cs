@@ -30,14 +30,14 @@ public class UserController : ControllerBase
     }
 
     [HttpGet()]
-    [Authorize(Policy = "Admin")]
+    [Authorize(Policy = "ADMIN")]
     public ActionResult<IEnumerable<User>> Get()
     {
         return userService.Get();
     }
 
     [HttpPost()]
-    [Authorize(Policy = "Admin")]
+    [Authorize(Policy = "ADMIN")]
     public ActionResult Post(User user)
     {
         int result = userService.Add(user);
@@ -59,7 +59,7 @@ public class UserController : ControllerBase
     // }
 
     [HttpDelete("{id}")]
-    [Authorize(Policy = "Admin")]
+    [Authorize(Policy = "ADMIN")]
     public ActionResult Delete(int id)
     {
         // var item = Get(id);

@@ -35,14 +35,14 @@ public class LoginController: ControllerBase
         ||(user.Name == "Tzipi Klarberg" 
         && user.Password == "TzipiPassword"))
         {
-            claims.Add(new Claim("type", "Admin"));
+            claims.Add(new Claim("type", UserType.ADMIN.ToString()));
             claims.Add(new Claim("id", currentUser.Id.ToString()));
             claims.Add(new Claim("name", currentUser.Name));
         }
         else
         {
             
-            claims.Add(new Claim("type", "User"));
+            claims.Add(new Claim("type", UserType.USER.ToString()));
             claims.Add(new Claim("id", currentUser.Id.ToString()));
             claims.Add(new Claim("name", currentUser.Name));
         }

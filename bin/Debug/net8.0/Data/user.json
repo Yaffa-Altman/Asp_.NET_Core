@@ -1,36 +1,43 @@
 [{
         "Id": 1,
         "Name": "David Cohen",
-        "Password": "SecurePass123!"
+        "Password": "SecurePass123!",
+        "type": "USER"
     },
     {
         "Id": 2,
         "Name": "Miriam Levi",
-        "Password": "MiriamPassword2023!"
+        "Password": "MiriamPassword2023!",
+        "type": "USER"
     },
     {
         "Id": 3,
         "Name": "Yaakov Schwartz",
-        "Password": "YaakovSecure2023!"
+        "Password": "YaakovSecure2023!",
+        "type": "USER"
     },
     {
         "Id": 4,
         "Name": "Rachel Goldstein",
-        "Password": "RachelPassword!"
+        "Password": "RachelPassword!",
+        "type": "USER"
     },
     {
         "Id": 5,
         "Name": "Shlomo Friedman",
-        "Password": "ShlomoFriedman2023!"
+        "Password": "ShlomoFriedman2023!",
+        "type": "USER"
     },
     {
         "Id": 6,
         "Name": "Yaffi Altman",
-        "Password": "YaffiPassword"
+        "Password": "YaffiPassword",
+        "type": "TYPE"
     },
     {
         "Id": 7,
         "Name": "Tzipi Klarberg",
-        "Password": "TzipiPassword"
+        "Password": "TzipiPassword",
+        "type": "TYPE"
     }
 ]

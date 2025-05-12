@@ -1,4 +1,4 @@
-using Enum;
+
 namespace CoreProject.Models;
 
 public class User : GenericId

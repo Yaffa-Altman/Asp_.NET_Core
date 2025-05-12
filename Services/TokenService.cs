@@ -28,28 +28,48 @@ public static class TokenService//כשמריץ יש בעיה עם זה שזה ס
     public static string WriteToken(SecurityToken token) =>
         new JwtSecurityTokenHandler().WriteToken(token);
 
-    public static ClaimsPrincipal ValidateToken(string token)
-    {
-        var handler = new JwtSecurityTokenHandler();
-        var tokenValidationParameters = new TokenValidationParameters
+
+     public static TokenValidationParameters
+     GetTokenValidationParameters() => 
+         new TokenValidationParameters
         {
             ValidateIssuerSigningKey = true,
             IssuerSigningKey = key,
             ValidateIssuer = true,
             ValidIssuer = issuer,
             ValidateAudience = true,
-            ValidAudience = audience,
+            // ValidAudience = audience,
             ClockSkew = TimeSpan.Zero 
         };
 
-        try
-        {
-            var principal = handler.ValidateToken(token, tokenValidationParameters, out var validatedToken);
-            return principal;
-        }
-        catch (SecurityTokenException)
-        {
-            return null;
-        }
+
+    // public static ClaimsPrincipal ValidateToken(string token)
+    // {
+    //     var handler = new JwtSecurityTokenHandler();
+    //     var tokenValidationParameters = new TokenValidationParameters
+    //     {
+    //         ValidateIssuerSigningKey = true,
+    //         IssuerSigningKey = key,
+    //         ValidateIssuer = true,
+    //         ValidIssuer = issuer,
+    //         ValidateAudience = true,
+    //         ValidAudience = audience,
+    //         ClockSkew = TimeSpan.Zero 
+    //     };
+
+    //     try
+    //     {
+    //         var principal = handler.ValidateToken(token, tokenValidationParameters, out var validatedToken);
+    //         return principal;
+    //     }
+    //     catch (SecurityTokenException)
+    //     {
+    //         return null;
+    //     }
+    // }
+
+    internal static TokenValidationParameters ValidateToken()
+    {
+        throw new NotImplementedException();
     }
 }
