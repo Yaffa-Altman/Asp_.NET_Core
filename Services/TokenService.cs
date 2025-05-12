@@ -6,10 +6,10 @@ using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.Extensions.Hosting;
+// using Microsoft.Extensions.Hosting;
 
 namespace CoreProject.Services;
-public static class TokenService
+public static class TokenService//כשמריץ יש בעיה עם זה שזה סטטי
 {
     private static SymmetricSecurityKey key
         = new SymmetricSecurityKey(
@@ -25,16 +25,31 @@ public static class TokenService
             signingCredentials: new SigningCredentials(key, SecurityAlgorithms.HmacSha256)
         );
 
-    public static TokenValidationParameters
-        GetTokenValidationParameters() =>
-        new TokenValidationParameters
-        {
-            ValidIssuer = issuer,
-            ValidAudience = issuer,
-            IssuerSigningKey = key,
-            ClockSkew = TimeSpan.Zero // remove delay of token when expire
-        };
-
     public static string WriteToken(SecurityToken token) =>
         new JwtSecurityTokenHandler().WriteToken(token);
+
+    public static ClaimsPrincipal ValidateToken(string token)
+    {
+        var handler = new JwtSecurityTokenHandler();
+        var tokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = key,
+            ValidateIssuer = true,
+            ValidIssuer = issuer,
+            ValidateAudience = true,
+            ValidAudience = audience,
+            ClockSkew = TimeSpan.Zero 
+        };
+
+        try
+        {
+            var principal = handler.ValidateToken(token, tokenValidationParameters, out var validatedToken);
+            return principal;
+        }
+        catch (SecurityTokenException)
+        {
+            return null;
+        }
+    }
 }

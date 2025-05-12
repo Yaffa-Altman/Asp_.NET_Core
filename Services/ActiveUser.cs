@@ -30,6 +30,7 @@ public class ActiveUser {
             var claims = jwtToken.Claims.ToDictionary(c => c.Type, c => c.Value);
             this.user.Id = int.Parse(claims["id"]);
             this.user.Name = claims["name"];
+            this.user.
             // Console.WriteLine(user.Name);
             // return user; // מחזיר את הטוקן
         }
