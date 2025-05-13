@@ -3,6 +3,7 @@ using CoreProject.interfaces;
 using CoreProject.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.Extensions.Logging;
 namespace CoreProject.Controllers;
 
 [ApiController]
@@ -12,11 +13,13 @@ public class UserController : ControllerBase
     private IGenericService<User> userService;
     private IGenericService<Shoes> shoesService;
 
+    private readonly ILogger<UserController> _logger;
 
-    public UserController(IGenericService<User> userService,IGenericService<Shoes> shoesService)
+    public UserController(IGenericService<User> userService,IGenericService<Shoes> shoesService, ILogger<UserController> logger)
     {
         this.userService = userService;
         this.shoesService = shoesService;
+        _logger = logger;
     
     }
 
@@ -62,6 +65,7 @@ public class UserController : ControllerBase
     [Authorize(Policy = "ADMIN")]
     public ActionResult Delete(int id)
     {
+        _logger.LogInformation("id");
         // var item = Get(id);
         // if (item == null)
         // {

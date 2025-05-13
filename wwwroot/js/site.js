@@ -1,125 +1,59 @@
-const uri = '/Shoes';
-let shoes = [];
+const apiUrl = "http://localhost:5187";
+const token = document.cookie.split('; ').find(row => row.startsWith('AuthToken='))?.split('=')[1];
 
-const getItems = () => {
-    fetch(uri)
-        .then(response => response.json())
-        .then(data => _displayItems(data))
-        .catch(error => console.error('Unable to get items.', error));
+if (!token) {
+    alert("You are not authenticated. Please log in.");
+    window.location.href = "/login.html";
 }
 
-const addItem = () => {
-    const addNameTextbox = document.getElementById('add-name');
-
-    const item = {
-        isElegant: false,
-        name: addNameTextbox.value.trim()
-    };
-
-    fetch(uri, {
-            method: 'POST',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(item)
-        })
-        .then(response => response.json())
-        .then(() => {
-            getItems();
-            addNameTextbox.value = '';
-        })
-        .catch(error => console.error('Unable to get items.', error));
-}
-
-const deleteItem = (id) => {
-    fetch(`${uri}/${id}`, {
-            method: 'DELETE'
-        })
-        .then(() => getItems())
-        .catch(error => console.error('Unable to delete item.', error));
-}
-
-const displayEditForm = (id) => {
-    const item = shoes.find(item => item.Id === id);
-
-    document.getElementById('edit-name').value = item.Description;
-    document.getElementById('edit-id').value = item.Id;
-    document.getElementById('edit-isElegant').checked = item.isElegant;
-    document.getElementById('editForm').style.display = 'block';
-}
-
-const updateItem = () => {
-    const itemId = document.getElementById('edit-id').value;
-    const item = {
-        Id: parseInt(itemId, 10),
-        isElegant: document.getElementById('edit-isElegant').checked,
-        Description: document.getElementById('edit-name').value.trim()
-    };
-
-    fetch(`${uri}/${itemId}`, {
-            method: 'PUT',
-            headers: {
-                'Accept': 'application/json',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(item)
-        })
-        .then(() => getItems())
-        .catch(error => console.error('Unable to update item.', error));
-
-    closeInput();
-
-    return false;
-}
-
-const closeInput = () => {
-    document.getElementById('editForm').style.display = 'none';
-}
-
-const _displayCount = (itemCount) => {
-    const name = (itemCount === 1) ? 'shoes' : 'shoes kinds';
-
-    document.getElementById('counter').innerText = `${itemCount} ${name}`;
-}
-
-const _displayItems = (data) => {
-    const tBody = document.getElementById('shoes');
-    tBody.innerHTML = '';
-
-    _displayCount(data.length);
-
-    const button = document.createElement('button');
-
-    data.forEach(item => {
-        let isElegantCheckbox = document.createElement('input');
-        isElegantCheckbox.type = 'checkbox';
-        isElegantCheckbox.disabled = true;
-        isElegantCheckbox.checked = item.isElegant;
-
-        let editButton = button.cloneNode(false);
-        editButton.innerText = 'Edit';
-        editButton.setAttribute('onclick', `displayEditForm(${item.Id})`);
-
-        let deleteButton = button.cloneNode(false);
-        deleteButton.innerText = 'Delete';
-        deleteButton.setAttribute('onclick', `deleteItem(${item.Id})`);
-
-        let tr = tBody.insertRow();
-
-        let td1 = tr.insertCell(0);
-        td1.appendChild(isElegantCheckbox);
-
-        let td2 = tr.insertCell(1);
-        let textNode = document.createTextNode(item.Description);
-        td2.appendChild(textNode);
-
-        let td3 = tr.insertCell(2);
-        td3.appendChild(editButton);
-
-        let td4 = tr.insertCell(3);
-        td4.appendChild(deleteButton);
+// Fetch user details
+async function fetchUserDetails() {
+    const response = await fetch(`${apiUrl}/user/details`, {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
     });
 
-    shoes = data;
+    if (response.ok) {
+        const user = await response.json();
+        document.getElementById("username").textContent = user.name;
+
+        // Show admin link if the user is an admin
+        if (user.role === "ADMIN") {
+            document.getElementById("adminLink").style.display = "block";
+        }
+    } else {
+        alert("Failed to fetch user details.");
+    }
 }
+
+// Fetch shoes
+async function fetchShoes() {
+    const response = await fetch(`${apiUrl}/Shoes`, {
+        headers: {
+            Authorization: `Bearer ${token}`
+        }
+    });
+
+    if (response.ok) {
+        const shoes = await response.json();
+        const tableBody = document.getElementById("shoesTableBody");
+        tableBody.innerHTML = ""; // Clear the table
+
+        shoes.forEach(shoe => {
+            const row = document.createElement("tr");
+            row.innerHTML = `
+                <td>${shoe.id}</td>
+                <td>${shoe.name}</td>
+                <td>${shoe.brand}</td>
+            `;
+            tableBody.appendChild(row);
+        });
+    } else {
+        alert("Failed to fetch shoes.");
+    }
+}
+
+// Initial fetch
+fetchUserDetails();
+fetchShoes();

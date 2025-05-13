@@ -35,19 +35,19 @@ public class LoginController: ControllerBase
         ||(user.Name == "Tzipi Klarberg" 
         && user.Password == "TzipiPassword"))
         {
-            claims.Add(new Claim("type", UserType.ADMIN.ToString()));
+            claims.Add(new Claim("type", "ADMIN"));
             claims.Add(new Claim("id", currentUser.Id.ToString()));
             claims.Add(new Claim("name", currentUser.Name));
         }
         else
         {
             
-            claims.Add(new Claim("type", UserType.USER.ToString()));
+            claims.Add(new Claim("type", "USER"));
             claims.Add(new Claim("id", currentUser.Id.ToString()));
             claims.Add(new Claim("name", currentUser.Name));
         }
         var token = TokenService.GetToken(claims);
-        Response.Cookies.Append("token", TokenService.WriteToken(token));
+        // Response.Cookies.Append("token", TokenService.WriteToken(token));
         return new OkObjectResult(TokenService.WriteToken(token));
     }
 

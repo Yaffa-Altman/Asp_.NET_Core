@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Wo5WHgzMK3Ub30t/V3Zqk6ZwN/QObDeM+5ibF3HS3sg=",
+  "Hash": "+jSQyyT1MfPlyZdpIC8EA0JyVrcOVh9mHIUIqe5Mm4U=",
   "Source": "CoreProject",
   "BasePath": "_content/CoreProject",
   "Mode": "Default",
@@ -10,528 +10,182 @@
     {
       "Name": "CoreProject\\wwwroot",
       "Source": "CoreProject",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
+      "Identity": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "assets/icon#[.{fingerprint}]?.jpg",
+      "RelativePath": "assets/icon.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "1mpbm214k0",
-      "Integrity": "l3viLkekawXxy0t18/vS98XOZc9qqBOg6xO/Cu7Kd3g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\icon.jpg"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
+      "Identity": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "assets/Thumbs#[.{fingerprint}]?.db",
+      "RelativePath": "assets/Thumbs.db",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jk9mzl7uwt",
-      "Integrity": "Db8G3plGPv+WglulXDIJDLWwLpnuIeMc51D76qHcwmI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\Thumbs.db"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\css\\site.css",
+      "Identity": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\css\\styles.css",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "RelativePath": "css/styles.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zoxlk5se5i",
-      "Integrity": "06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\index.html",
+      "Identity": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\dashboard.html",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "index#[.{fingerprint}]?.html",
+      "RelativePath": "dashboard.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "svn243k38z",
-      "Integrity": "aFWEETIoc9tAFgtMIIoiSsnynASzyIfYPH6Wshsamwg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\index.html"
+      "OriginalItemSpec": "wwwroot\\dashboard.html"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\js\\site.js",
+      "Identity": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\js\\login.js",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "RelativePath": "js/login.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9p7b5u7k5h",
-      "Integrity": "Qzd5eLSXB32iMmyLLzmiE0ccjlTYgE2DW2dJNjzFFxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login.js"
+    },
+    {
+      "Identity": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\js\\site.js",
+      "SourceId": "CoreProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\",
+      "BasePath": "_content/CoreProject",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "assets/icon.1mpbm214k0.jpg",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "39146"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"l3viLkekawXxy0t18/vS98XOZc9qqBOg6xO/Cu7Kd3g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:48:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "1mpbm214k0"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/icon.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-l3viLkekawXxy0t18/vS98XOZc9qqBOg6xO/Cu7Kd3g="
-        }
-      ]
     },
     {
-      "Route": "assets/icon.jpg",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "39146"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"l3viLkekawXxy0t18/vS98XOZc9qqBOg6xO/Cu7Kd3g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:48:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-l3viLkekawXxy0t18/vS98XOZc9qqBOg6xO/Cu7Kd3g="
-        }
-      ]
+      "Identity": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\js\\users.js",
+      "SourceId": "CoreProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\",
+      "BasePath": "_content/CoreProject",
+      "RelativePath": "js/users.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\users.js"
     },
     {
-      "Route": "assets/Thumbs.db",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12800"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Db8G3plGPv+WglulXDIJDLWwLpnuIeMc51D76qHcwmI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:48:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Db8G3plGPv+WglulXDIJDLWwLpnuIeMc51D76qHcwmI="
-        }
-      ]
+      "Identity": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\login.html",
+      "SourceId": "CoreProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\",
+      "BasePath": "_content/CoreProject",
+      "RelativePath": "login.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login.html"
     },
     {
-      "Route": "assets/Thumbs.jk9mzl7uwt.db",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "12800"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Db8G3plGPv+WglulXDIJDLWwLpnuIeMc51D76qHcwmI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:48:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "jk9mzl7uwt"
-        },
-        {
-          "Name": "label",
-          "Value": "assets/Thumbs.db"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Db8G3plGPv+WglulXDIJDLWwLpnuIeMc51D76qHcwmI="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "332"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:48:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.zoxlk5se5i.css",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "332"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:48:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zoxlk5se5i"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-06WPOIW5/mIO+16lWWyaJd8OL4taYJX8l7d24pTFPC4="
-        }
-      ]
-    },
-    {
-      "Route": "index.html",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1271"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aFWEETIoc9tAFgtMIIoiSsnynASzyIfYPH6Wshsamwg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:48:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-aFWEETIoc9tAFgtMIIoiSsnynASzyIfYPH6Wshsamwg="
-        }
-      ]
-    },
-    {
-      "Route": "index.svn243k38z.html",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1271"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aFWEETIoc9tAFgtMIIoiSsnynASzyIfYPH6Wshsamwg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:48:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "svn243k38z"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-aFWEETIoc9tAFgtMIIoiSsnynASzyIfYPH6Wshsamwg="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.9p7b5u7k5h.js",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3699"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Qzd5eLSXB32iMmyLLzmiE0ccjlTYgE2DW2dJNjzFFxo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:48:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9p7b5u7k5h"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Qzd5eLSXB32iMmyLLzmiE0ccjlTYgE2DW2dJNjzFFxo="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\Asp_.NET_Core\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3699"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Qzd5eLSXB32iMmyLLzmiE0ccjlTYgE2DW2dJNjzFFxo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 14:48:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Qzd5eLSXB32iMmyLLzmiE0ccjlTYgE2DW2dJNjzFFxo="
-        }
-      ]
+      "Identity": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\users.html",
+      "SourceId": "CoreProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\",
+      "BasePath": "_content/CoreProject",
+      "RelativePath": "users.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\users.html"
     }
   ]
 }

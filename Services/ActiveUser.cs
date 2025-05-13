@@ -30,7 +30,7 @@ public class ActiveUser {
             var claims = jwtToken.Claims.ToDictionary(c => c.Type, c => c.Value);
             this.user.Id = int.Parse(claims["id"]);
             this.user.Name = claims["name"];
-            this.user.userType = (UserType)Enum.Parse(typeof(UserType),claims["type"]);
+            this.user.userType = claims["type"];
             // Console.WriteLine(user.Name);
             // return user; // מחזיר את הטוקן
         }

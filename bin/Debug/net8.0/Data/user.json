@@ -32,12 +32,12 @@
         "Id": 6,
         "Name": "Yaffi Altman",
         "Password": "YaffiPassword",
-        "type": "TYPE"
+        "type": "ADMIN"
     },
     {
         "Id": 7,
         "Name": "Tzipi Klarberg",
         "Password": "TzipiPassword",
-        "type": "TYPE"
+        "type": "ADMIN"
     }
 ]

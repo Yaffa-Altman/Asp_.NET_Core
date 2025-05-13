@@ -43,33 +43,8 @@ public static class TokenService//כשמריץ יש בעיה עם זה שזה ס
         };
 
 
-    // public static ClaimsPrincipal ValidateToken(string token)
+    // internal static TokenValidationParameters ValidateToken()
     // {
-    //     var handler = new JwtSecurityTokenHandler();
-    //     var tokenValidationParameters = new TokenValidationParameters
-    //     {
-    //         ValidateIssuerSigningKey = true,
-    //         IssuerSigningKey = key,
-    //         ValidateIssuer = true,
-    //         ValidIssuer = issuer,
-    //         ValidateAudience = true,
-    //         ValidAudience = audience,
-    //         ClockSkew = TimeSpan.Zero 
-    //     };
-
-    //     try
-    //     {
-    //         var principal = handler.ValidateToken(token, tokenValidationParameters, out var validatedToken);
-    //         return principal;
-    //     }
-    //     catch (SecurityTokenException)
-    //     {
-    //         return null;
-    //     }
+    //     throw new NotImplementedException();
     // }
-
-    internal static TokenValidationParameters ValidateToken()
-    {
-        throw new NotImplementedException();
-    }
 }

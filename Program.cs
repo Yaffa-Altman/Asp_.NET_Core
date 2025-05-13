@@ -3,8 +3,15 @@ using Core.Middleware;
 using CoreProject.interfaces;
 using CoreProject.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+// using Serilog; // error
 
 var builder = WebApplication.CreateBuilder(args);
+// builder.Services.AddSerilog();
+// Log.Logger = new LoggerConfiguration()
+//     .WriteTo.Console()
+//     .CreateLogger();
+
+// builder.Host.UseSerilog();
 
 builder.Services.AddAuthentication(options =>
                 {
@@ -19,10 +26,11 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddAuthorization(c =>
 {
-    c.AddPolicy("Admin",
-        policy => policy.RequireClaim("type", "Admin"));
-    c.AddPolicy("User",
-        policy => policy.RequireClaim("type", "Admin", "User"));
+    c.AddPolicy("ADMIN",
+        policy => policy.RequireClaim("type", "ADMIN"));
+    c.AddPolicy("USER",
+        policy => policy.RequireClaim("type", "ADMIN", "USER"));
+        Console.WriteLine("ghjkl-------------------");
 });
 
 builder.Services.AddControllers();
@@ -48,7 +56,7 @@ if (app.Environment.IsDevelopment())
 
 // app.UseLog();
 // app.UseError();
-app.MapGet("/", () => Results.Redirect("/index.html"));
+app.MapGet("/", () => Results.Redirect("/login.html"));
 
 app.UseStaticFiles();
 

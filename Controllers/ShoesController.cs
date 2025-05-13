@@ -10,7 +10,7 @@ namespace CoreProject.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-[Authorize(Policy = "USER")]//אין לactive user type...
+[Authorize(Policy = "USER")]
 public class ShoesController : ControllerBase
 {
 
