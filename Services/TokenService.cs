@@ -9,13 +9,13 @@ using Microsoft.IdentityModel.Tokens;
 // using Microsoft.Extensions.Hosting;
 
 namespace CoreProject.Services;
-public static class TokenService//כשמריץ יש בעיה עם זה שזה סטטי
+public static class TokenService
 {
     private static SymmetricSecurityKey key
         = new SymmetricSecurityKey(
             Encoding.UTF8.GetBytes(
-                "O*80qsKyNUyvGbjuFrke2Nmj5zQzNLW7m258&nZZ"));
-    private static string issuer = "https://CoreProject.com";
+                "SXkSqsKyNUyvGbnHs7ke2NCq8zQzNLW7mPmHbnZZ"));
+    private static string issuer = "http://localhost:5187";
     public static SecurityToken GetToken(List<Claim> claims) =>
         new JwtSecurityToken(
             issuer,
@@ -33,7 +33,7 @@ public static class TokenService//כשמריץ יש בעיה עם זה שזה ס
      GetTokenValidationParameters() => 
          new TokenValidationParameters
         {
-            ValidateIssuerSigningKey = true,
+            // ValidateIssuerSigningKey = true,
             IssuerSigningKey = key,
             ValidateIssuer = true,
             ValidIssuer = issuer,

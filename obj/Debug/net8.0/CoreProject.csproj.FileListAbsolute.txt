@@ -302,7 +302,6 @@ Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\obj\Debug\net8.0\refint\Core
 Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.pdb
 Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.genruntimeconfig.cache
 Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\obj\Debug\net8.0\ref\CoreProject.dll
-Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.csproj.CopyComplete
 Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.dll
 Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.AspNetCore.dll
@@ -313,3 +312,8 @@ Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Set
 Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Sinks.File.dll
+Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.staticwebassets.endpoints.json
+Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets\msbuild.CoreProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+Z:\B\אלטמן יפה\Core\Core\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProj.FF7014C9.Up2Date

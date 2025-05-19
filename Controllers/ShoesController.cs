@@ -4,13 +4,14 @@ using CoreProject.interfaces;
 using CoreProject.Services;
 using Microsoft.AspNetCore.Authorization;
 using System.Linq;
+using Serilog;
 
 
 namespace CoreProject.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-// [Authorize(Policy = "USER")]
+[Authorize(Policy = "USER")]
 public class ShoesController : ControllerBase
 {
 
@@ -19,6 +20,7 @@ public class ShoesController : ControllerBase
 
     public ShoesController(IGenericService<Shoes> shoesService, ActiveUser au)
     {
+        Log.Information("in shoes controller constructor");
         this.shoesService = shoesService;
         this.activeUser = au.GetActiveUser();
     }
@@ -32,7 +34,6 @@ public class ShoesController : ControllerBase
         return shoes;
     }
 
-    [Authorize(Policy = "ADMIN")]
     [HttpGet()]
     public ActionResult<IEnumerable<Shoes>> Get()
     {

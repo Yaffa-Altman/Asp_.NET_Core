@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hv6kOSNOxWh20OjYo3PUoe3lOZE42zx95YnzivvtrZ0=",
+  "Hash": "dXat42gLlGIF8bZLn2mfPi8FYZxQkHxR00VMYZvYUCk=",
   "Source": "CoreProject",
   "BasePath": "_content/CoreProject",
   "Mode": "Default",
@@ -22,15 +22,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "assets/icon.jpg",
+      "RelativePath": "assets/icon#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "1mpbm214k0",
+      "Integrity": "l3viLkekawXxy0t18/vS98XOZc9qqBOg6xO/Cu7Kd3g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\icon.jpg"
@@ -41,15 +43,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "assets/Thumbs.db",
+      "RelativePath": "assets/Thumbs#[.{fingerprint}]?.db",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "jk9mzl7uwt",
+      "Integrity": "Db8G3plGPv+WglulXDIJDLWwLpnuIeMc51D76qHcwmI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\Thumbs.db"
@@ -60,15 +64,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "css/styles.css",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "byq1i0txzu",
+      "Integrity": "s6Ak3Ukahr90XpMelq90rAjrtSEwhsv3x4EI4Pl9zBg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
@@ -79,15 +85,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "dashboard.html",
+      "RelativePath": "dashboard#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "suvfpv0of6",
+      "Integrity": "/BuN238keUWypCDWKz7eT9QLFdXv+/VF7IoR0obD89k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\dashboard.html"
@@ -98,15 +106,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "js/login.js",
+      "RelativePath": "js/login#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "igw1ar9hcq",
+      "Integrity": "ksCOADUYRetX8UY9l58onVbsl7nhmEH/Z/U5+Hg2Um8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\login.js"
@@ -117,15 +127,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "js/site.js",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "fsjkfbgj3a",
+      "Integrity": "L9x+HuSH2GYGqwkW3WhIZTQMghxdM4AEAOkbIYNB8EI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -136,15 +148,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "js/users.js",
+      "RelativePath": "js/users#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ia6y87n04s",
+      "Integrity": "Wki+Vzu2F6NbMgGlnIhEtC0fXAKsIUlKF2B5IUT9+Ao=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\users.js"
@@ -155,15 +169,17 @@
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "login.html",
+      "RelativePath": "login#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "xr4upr56p0",
+      "Integrity": "U7dgWQ6qvY2YLUSt1XKQXuQKTVPupmZb00jOBfRfKqk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\login.html"
@@ -174,18 +190,760 @@
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
-      "RelativePath": "users.html",
+      "RelativePath": "users#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "gpqjipzul3",
+      "Integrity": "9BNhu3L6dwV8ypP580dmYsi9EXvjnBKg5yylrHbdkSo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\users.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "assets/icon.1mpbm214k0.jpg",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l3viLkekawXxy0t18/vS98XOZc9qqBOg6xO/Cu7Kd3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1mpbm214k0"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/icon.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l3viLkekawXxy0t18/vS98XOZc9qqBOg6xO/Cu7Kd3g="
+        }
+      ]
+    },
+    {
+      "Route": "assets/icon.jpg",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39146"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l3viLkekawXxy0t18/vS98XOZc9qqBOg6xO/Cu7Kd3g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l3viLkekawXxy0t18/vS98XOZc9qqBOg6xO/Cu7Kd3g="
+        }
+      ]
+    },
+    {
+      "Route": "assets/Thumbs.db",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Db8G3plGPv+WglulXDIJDLWwLpnuIeMc51D76qHcwmI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Db8G3plGPv+WglulXDIJDLWwLpnuIeMc51D76qHcwmI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/Thumbs.jk9mzl7uwt.db",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12800"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Db8G3plGPv+WglulXDIJDLWwLpnuIeMc51D76qHcwmI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jk9mzl7uwt"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/Thumbs.db"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Db8G3plGPv+WglulXDIJDLWwLpnuIeMc51D76qHcwmI="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.byq1i0txzu.css",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s6Ak3Ukahr90XpMelq90rAjrtSEwhsv3x4EI4Pl9zBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "byq1i0txzu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s6Ak3Ukahr90XpMelq90rAjrtSEwhsv3x4EI4Pl9zBg="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "837"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s6Ak3Ukahr90XpMelq90rAjrtSEwhsv3x4EI4Pl9zBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s6Ak3Ukahr90XpMelq90rAjrtSEwhsv3x4EI4Pl9zBg="
+        }
+      ]
+    },
+    {
+      "Route": "dashboard.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\dashboard.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/BuN238keUWypCDWKz7eT9QLFdXv+/VF7IoR0obD89k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 14:37:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/BuN238keUWypCDWKz7eT9QLFdXv+/VF7IoR0obD89k="
+        }
+      ]
+    },
+    {
+      "Route": "dashboard.suvfpv0of6.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\dashboard.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "915"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/BuN238keUWypCDWKz7eT9QLFdXv+/VF7IoR0obD89k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 14:37:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "suvfpv0of6"
+        },
+        {
+          "Name": "label",
+          "Value": "dashboard.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/BuN238keUWypCDWKz7eT9QLFdXv+/VF7IoR0obD89k="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.igw1ar9hcq.js",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "886"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ksCOADUYRetX8UY9l58onVbsl7nhmEH/Z/U5+Hg2Um8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 14:13:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "igw1ar9hcq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/login.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ksCOADUYRetX8UY9l58onVbsl7nhmEH/Z/U5+Hg2Um8="
+        }
+      ]
+    },
+    {
+      "Route": "js/login.js",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\js\\login.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "886"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ksCOADUYRetX8UY9l58onVbsl7nhmEH/Z/U5+Hg2Um8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 14:13:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ksCOADUYRetX8UY9l58onVbsl7nhmEH/Z/U5+Hg2Um8="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.fsjkfbgj3a.js",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L9x+HuSH2GYGqwkW3WhIZTQMghxdM4AEAOkbIYNB8EI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 14:38:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fsjkfbgj3a"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L9x+HuSH2GYGqwkW3WhIZTQMghxdM4AEAOkbIYNB8EI="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L9x+HuSH2GYGqwkW3WhIZTQMghxdM4AEAOkbIYNB8EI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 14:38:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L9x+HuSH2GYGqwkW3WhIZTQMghxdM4AEAOkbIYNB8EI="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.ia6y87n04s.js",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\js\\users.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wki+Vzu2F6NbMgGlnIhEtC0fXAKsIUlKF2B5IUT9+Ao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ia6y87n04s"
+        },
+        {
+          "Name": "label",
+          "Value": "js/users.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wki+Vzu2F6NbMgGlnIhEtC0fXAKsIUlKF2B5IUT9+Ao="
+        }
+      ]
+    },
+    {
+      "Route": "js/users.js",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\js\\users.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wki+Vzu2F6NbMgGlnIhEtC0fXAKsIUlKF2B5IUT9+Ao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wki+Vzu2F6NbMgGlnIhEtC0fXAKsIUlKF2B5IUT9+Ao="
+        }
+      ]
+    },
+    {
+      "Route": "login.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U7dgWQ6qvY2YLUSt1XKQXuQKTVPupmZb00jOBfRfKqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U7dgWQ6qvY2YLUSt1XKQXuQKTVPupmZb00jOBfRfKqk="
+        }
+      ]
+    },
+    {
+      "Route": "login.xr4upr56p0.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "738"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U7dgWQ6qvY2YLUSt1XKQXuQKTVPupmZb00jOBfRfKqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xr4upr56p0"
+        },
+        {
+          "Name": "label",
+          "Value": "login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U7dgWQ6qvY2YLUSt1XKQXuQKTVPupmZb00jOBfRfKqk="
+        }
+      ]
+    },
+    {
+      "Route": "users.gpqjipzul3.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\users.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9BNhu3L6dwV8ypP580dmYsi9EXvjnBKg5yylrHbdkSo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gpqjipzul3"
+        },
+        {
+          "Name": "label",
+          "Value": "users.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9BNhu3L6dwV8ypP580dmYsi9EXvjnBKg5yylrHbdkSo="
+        }
+      ]
+    },
+    {
+      "Route": "users.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\users.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "727"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9BNhu3L6dwV8ypP580dmYsi9EXvjnBKg5yylrHbdkSo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 12:50:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9BNhu3L6dwV8ypP580dmYsi9EXvjnBKg5yylrHbdkSo="
+        }
+      ]
     }
   ]
 }
