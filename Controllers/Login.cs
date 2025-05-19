@@ -27,11 +27,12 @@ public class LoginController: ControllerBase
     {
         var users = jsonService.GetItems();
         var currentUser = users.FirstOrDefault(u => u.Name == user.Name && u.Password == user.Password);
+        
         if(currentUser == null)
-            return null;
+            return Unauthorized();
         var claims = new List<Claim>();
         if ((user.Name == "Yaffi Altman" 
-        && user.Password == "YaffiPassword")
+        && user.Password == "YP")
         ||(user.Name == "Tzipi Klarberg" 
         && user.Password == "TzipiPassword"))
         {
@@ -48,7 +49,7 @@ public class LoginController: ControllerBase
         }
         var token = TokenService.GetToken(claims);
         // Response.Cookies.Append("token", TokenService.WriteToken(token));
-        return new OkObjectResult(TokenService.WriteToken(token));
+        return Ok(TokenService.WriteToken(token));
     }
 
     // [HttpPost]

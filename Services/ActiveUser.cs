@@ -17,7 +17,7 @@ public class ActiveUser {
     public void GetTokenFromCookies()
     {
         // קבלת הטוקן מהקוקיז
-        if (_httpContextAccessor.HttpContext.Request.Cookies.TryGetValue("token", out var token))
+        if (_httpContextAccessor.HttpContext.Request.Cookies.TryGetValue("AuthToken", out var token))
         {
             if(token == null)
                 return;
@@ -31,6 +31,7 @@ public class ActiveUser {
             this.user.Id = int.Parse(claims["id"]);
             this.user.Name = claims["name"];
             this.user.userType = claims["type"];
+            // Console.WriteLine("this.user.Id");
             // Console.WriteLine(user.Name);
             // return user; // מחזיר את הטוקן
         }

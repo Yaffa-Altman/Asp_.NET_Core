@@ -1,5 +1,5 @@
 const apiUrl = "http://localhost:5187";
-const token = document.cookie.split('; ').find(row => row.startsWith('AuthToken='))?.split('=')[1];
+const token = document.cookie.split('; ').find(row => row.startsWith('AuthToken=')).split('=')[1];
 
 if (!token) {
     alert("You are not authenticated. Please log in.");
@@ -8,7 +8,7 @@ if (!token) {
 
 // Fetch user details
 async function fetchUserDetails() {
-    const response = await fetch(`${apiUrl}/user/details`, {
+    const response = await fetch(`${apiUrl}/User/6`, {
         headers: {
             Authorization: `Bearer ${token}`
         }
@@ -19,7 +19,7 @@ async function fetchUserDetails() {
         document.getElementById("username").textContent = user.name;
 
         // Show admin link if the user is an admin
-        if (user.role === "ADMIN") {
+        if (user.userType === "ADMIN") {
             document.getElementById("adminLink").style.display = "block";
         }
     } else {
@@ -45,7 +45,7 @@ async function fetchShoes() {
             row.innerHTML = `
                 <td>${shoe.id}</td>
                 <td>${shoe.name}</td>
-                <td>${shoe.brand}</td>
+                <td>${shoe.isElegant}</td>
             `;
             tableBody.appendChild(row);
         });

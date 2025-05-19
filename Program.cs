@@ -30,7 +30,6 @@ builder.Services.AddAuthorization(c =>
         policy => policy.RequireClaim("type", "ADMIN"));
     c.AddPolicy("USER",
         policy => policy.RequireClaim("type", "ADMIN", "USER"));
-        Console.WriteLine("ghjkl-------------------");
 });
 
 builder.Services.AddControllers();

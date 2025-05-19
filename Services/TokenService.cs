@@ -14,7 +14,7 @@ public static class TokenService//כשמריץ יש בעיה עם זה שזה ס
     private static SymmetricSecurityKey key
         = new SymmetricSecurityKey(
             Encoding.UTF8.GetBytes(
-                "O*80qsKyNUyvGbjuFrke2Nmj5zQzNLW7m258.nZZ"));
+                "O*80qsKyNUyvGbjuFrke2Nmj5zQzNLW7m258&nZZ"));
     private static string issuer = "https://CoreProject.com";
     public static SecurityToken GetToken(List<Claim> claims) =>
         new JwtSecurityToken(

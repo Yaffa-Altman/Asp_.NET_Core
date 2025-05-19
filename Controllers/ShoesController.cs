@@ -10,7 +10,7 @@ namespace CoreProject.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-[Authorize(Policy = "USER")]
+// [Authorize(Policy = "USER")]
 public class ShoesController : ControllerBase
 {
 

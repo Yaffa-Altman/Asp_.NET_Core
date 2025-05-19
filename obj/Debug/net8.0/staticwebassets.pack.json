@@ -1,40 +1,44 @@
 {
   "Files": [
     {
-      "Id": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
       "PackagePath": "staticwebassets\\assets\\Thumbs.db"
     },
     {
-      "Id": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
       "PackagePath": "staticwebassets\\assets\\icon.jpg"
     },
     {
-      "Id": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\css\\styles.css",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\dashboard.html",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\dashboard.html",
       "PackagePath": "staticwebassets\\dashboard.html"
     },
     {
-      "Id": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\js\\login.js",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
-      "Id": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\js\\site.js",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\js\\users.js",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\js\\users.js",
       "PackagePath": "staticwebassets\\js\\users.js"
     },
     {
-      "Id": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\login.html",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\login.html",
       "PackagePath": "staticwebassets\\login.html"
     },
     {
-      "Id": "D:\\יד\\core\\פרויקט\\Asp_.NET_Core\\wwwroot\\users.html",
+      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\users.html",
       "PackagePath": "staticwebassets\\users.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoreProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoreProject.Microsoft.AspNetCore.StaticWebAssets.props",

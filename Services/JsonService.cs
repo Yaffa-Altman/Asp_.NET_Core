@@ -9,7 +9,7 @@ public class JsonService<T>{
     public JsonService(IHostEnvironment env)
     {
         filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
-
+        
         using (var jsonFile = File.OpenText(filePath))
         {
             Items = JsonSerializer.Deserialize<List<T>>(jsonFile.ReadToEnd(),

@@ -1,31 +1,37 @@
 [{
+        "isElegant": true,
+        "UserId": 1,
         "Id": 1,
-        "Name": "Adidas UltraBoost",
-        "isElegant": true,
-        "UserId": 1
+        "Name": "Adidas UltraBoost"
     },
     {
+        "isElegant": false,
+        "UserId": 7,
         "Id": 2,
-        "Name": "Nike Air Force 1",
-        "isElegant": false,
-        "UserId": 2
+        "Name": "Nike Air Force 1"
     },
     {
+        "isElegant": true,
+        "UserId": 3,
         "Id": 3,
-        "Name": "Puma RS-X",
-        "isElegant": true,
-        "UserId": 3
+        "Name": "Puma RS-X"
     },
     {
-        "Id": 4,
-        "Name": "Reebok Classic",
         "isElegant": false,
-        "UserId": 4
+        "UserId": 7,
+        "Id": 4,
+        "Name": "Reebok Classic"
     },
     {
-        "Id": 5,
-        "Name": "New Balance 574",
         "isElegant": true,
-        "UserId": 5
+        "UserId": 5,
+        "Id": 5,
+        "Name": "New Balance 574"
+    },
+    {
+        "isElegant": true,
+        "UserId": 6,
+        "Id": 6,
+        "Name": "YP"
     }
 ]
