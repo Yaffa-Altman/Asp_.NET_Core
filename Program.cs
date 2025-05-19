@@ -3,13 +3,14 @@ using Core.Middleware;
 using CoreProject.interfaces;
 using CoreProject.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-// using Serilog; // error
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
-// builder.Services.AddSerilog();
-// Log.Logger = new LoggerConfiguration()
-//     .WriteTo.Console()
-//     .CreateLogger();
+Log.Logger = new LoggerConfiguration()
+    .MinimumLevel.Debug()
+    .WriteTo.Console()
+    .WriteTo.File("Data/log.txt", rollingInterval: RollingInterval.Day)
+    .CreateLogger();
 
 // builder.Host.UseSerilog();
 
@@ -55,16 +56,13 @@ if (app.Environment.IsDevelopment())
 
 // app.UseLog();
 // app.UseError();
-app.MapGet("/", () => Results.Redirect("/login.html"));
 
 app.UseStaticFiles();
-
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.UseAuthentication();
 
+app.MapGet("/", () => Results.Redirect("/login.html"));
 app.MapControllers();
 
 app.Run();

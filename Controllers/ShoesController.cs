@@ -32,6 +32,7 @@ public class ShoesController : ControllerBase
         return shoes;
     }
 
+    [Authorize(Policy = "ADMIN")]
     [HttpGet()]
     public ActionResult<IEnumerable<Shoes>> Get()
     {
