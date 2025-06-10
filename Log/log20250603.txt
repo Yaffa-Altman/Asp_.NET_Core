@@ -1,0 +1,1 @@
+2025-06-03 19:36:25.298 +03:00 [INF] in shoes controller constructor

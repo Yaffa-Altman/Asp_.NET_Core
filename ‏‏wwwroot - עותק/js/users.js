@@ -3,12 +3,12 @@ const token = document.cookie.split('; ').find(row => row.startsWith('AuthToken=
 
 if (!token) {
     alert("You are not authenticated. Please log in.");
-    window.location.href = "/login.html"; 
+    window.location.href = "/../login.html"; 
 }
 
 // Fetch all users
 async function fetchUsers() {
-    const response = await fetch(`${apiUrl}/users`, {
+    const response = await fetch(`${apiUrl}/User`, {
         headers: {
             Authorization: `Bearer ${token}`
         }

@@ -3,7 +3,7 @@ const token = document.cookie.split('; ').find(row => row.startsWith('AuthToken=
 
 if (!token) {
     alert("You are not authenticated. Please log in.");
-    window.location.href = "/login.html";
+    window.location.href = "../login.html";
 }
 
 // Fetch user details
@@ -29,7 +29,10 @@ async function fetchUserDetails() {
 
 // Fetch shoes
 async function fetchShoes() {
+    console.log("------------apiurl-----    "+apiUrl);
+
     const response = await fetch(`${apiUrl}/Shoes`, {
+
         headers: {
             Authorization: `Bearer ${token}`
         }

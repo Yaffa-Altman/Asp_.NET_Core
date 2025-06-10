@@ -18,7 +18,7 @@ document.getElementById("loginForm").addEventListener("submit", async(e) => {
         // Save the token in a cookie
         document.cookie = `AuthToken=${data}; `; //Secure; HttpOnly
         // Redirect to dashboard
-        window.location.href = "/dashboard.html";
+        window.location.href = "/../dashboard.html";
     } else {
         document.getElementById("errorMessage").style.display = "block";
     }
