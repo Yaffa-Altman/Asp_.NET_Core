@@ -24,6 +24,21 @@ builder.Services.AddAuthentication(options =>
                     cfg.RequireHttpsMetadata = false;
                     cfg.TokenValidationParameters =
                         TokenService.GetTokenValidationParameters();
+                          cfg.Events = new JwtBearerEvents
+    {
+        OnAuthenticationFailed = context =>
+        {
+            System.Console.WriteLine(context.Request.Headers["Authorization"]);
+            System.Console.WriteLine();
+            Console.WriteLine("Authentication failed: " + context.Exception.Message);
+            return Task.CompletedTask;
+        },
+        OnTokenValidated = context =>
+        {
+            Console.WriteLine("Token is valid");
+            return Task.CompletedTask;
+        }
+    };
                 });
 
 builder.Services.AddAuthorization(c =>
@@ -61,7 +76,6 @@ builder.Services.AddSwaggerGen(c =>
                 }
    });
 });
-builder.Services.AddScoped<ActiveUser>();
 
 var app = builder.Build();
 
@@ -79,8 +93,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseStaticFiles();
 app.UseHttpsRedirection();
-app.UseAuthorization();
 app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapGet("/", () => Results.Redirect("/login.html"));
 app.MapControllers();

@@ -1,44 +1,40 @@
 {
   "Files": [
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
+      "Id": "C:\\Users\\The user\\Downloads\\קודם\\Asp_.NET_Core-main\\wwwroot\\assets\\Thumbs.db",
       "PackagePath": "staticwebassets\\assets\\Thumbs.db"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
+      "Id": "C:\\Users\\The user\\Downloads\\קודם\\Asp_.NET_Core-main\\wwwroot\\assets\\icon.jpg",
       "PackagePath": "staticwebassets\\assets\\icon.jpg"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\css\\styles.css",
+      "Id": "C:\\Users\\The user\\Downloads\\קודם\\Asp_.NET_Core-main\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\dashboard.html",
+      "Id": "C:\\Users\\The user\\Downloads\\קודם\\Asp_.NET_Core-main\\wwwroot\\dashboard.html",
       "PackagePath": "staticwebassets\\dashboard.html"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\js\\login.js",
+      "Id": "C:\\Users\\The user\\Downloads\\קודם\\Asp_.NET_Core-main\\wwwroot\\js\\login.js",
       "PackagePath": "staticwebassets\\js\\login.js"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\The user\\Downloads\\קודם\\Asp_.NET_Core-main\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\js\\users.js",
+      "Id": "C:\\Users\\The user\\Downloads\\קודם\\Asp_.NET_Core-main\\wwwroot\\js\\users.js",
       "PackagePath": "staticwebassets\\js\\users.js"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\login.html",
+      "Id": "C:\\Users\\The user\\Downloads\\קודם\\Asp_.NET_Core-main\\wwwroot\\login.html",
       "PackagePath": "staticwebassets\\login.html"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\Core\\core\\Asp_.NET_Core\\wwwroot\\users.html",
+      "Id": "C:\\Users\\The user\\Downloads\\קודם\\Asp_.NET_Core-main\\wwwroot\\users.html",
       "PackagePath": "staticwebassets\\users.html"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoreProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoreProject.Microsoft.AspNetCore.StaticWebAssets.props",

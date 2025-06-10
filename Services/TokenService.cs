@@ -9,6 +9,7 @@ using Microsoft.IdentityModel.Tokens;
 // using Microsoft.Extensions.Hosting;
 
 namespace CoreProject.Services;
+
 public static class TokenService
 {
     private static SymmetricSecurityKey key
@@ -29,17 +30,23 @@ public static class TokenService
         new JwtSecurityTokenHandler().WriteToken(token);
 
 
-     public static TokenValidationParameters
-     GetTokenValidationParameters() => 
-         new TokenValidationParameters
+    public static TokenValidationParameters
+    GetTokenValidationParameters() =>
+        new TokenValidationParameters
         {
-            // ValidateIssuerSigningKey = true,
-            IssuerSigningKey = key,
-            ValidateIssuer = true,
+            // // ValidateIssuerSigningKey = true,
+            // IssuerSigningKey = key,
+            // ValidateIssuer = true,
+            // ValidIssuer = issuer,
+            // ValidateAudience = true,
+            // // ValidAudience = audience,
+            // ClockSkew = TimeSpan.Zero 
             ValidIssuer = issuer,
-            ValidateAudience = true,
-            // ValidAudience = audience,
-            ClockSkew = TimeSpan.Zero 
+            ValidAudience = issuer,
+            IssuerSigningKey = key,
+            //ClockSkew = TimeSpan.Zero, // remove delay of token when expire
+            LifetimeValidator = LifetimeValidator //TimeSpan.FromDays(30)
+
         };
 
 
@@ -47,4 +54,19 @@ public static class TokenService
     // {
     //     throw new NotImplementedException();
     // }
+     public static bool LifetimeValidator(DateTime? notBefore, DateTime? expires, SecurityToken token, TokenValidationParameters validationParameters)
+{
+    // קביעת התוקף של הטוקן ל-30 ימים
+    var expirationDate = notBefore?.AddMinutes(1);
+
+    // בדיקה האם התוקף המוגדר הוא קטן מהתאריך הנוכחי
+    if (expirationDate < DateTime.UtcNow)
+    {
+        // התוקף פג, מסר תוקף לא חוקי
+        return false;
+    }
+
+    // התוקף עדיין תקף
+    return true;
+}
 }

@@ -11,7 +11,7 @@ namespace CoreProject.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-[Authorize(Policy = "USER")]
+[Authorize]
 public class ShoesController : ControllerBase
 {
 
@@ -20,6 +20,8 @@ public class ShoesController : ControllerBase
 
     public ShoesController(IGenericService<Shoes> shoesService, ActiveUser au)
     {
+        System.Console.WriteLine("ctor controller");
+
         Log.Information("in shoes controller constructor");
         this.shoesService = shoesService;
         this.activeUser = au.GetActiveUser();
@@ -28,17 +30,26 @@ public class ShoesController : ControllerBase
     [HttpGet("{id}")]
     public ActionResult<Shoes> Get(int id)
     {
+        System.Console.WriteLine("get id controller");
+        System.Console.WriteLine(User.Claims);
+        System.Console.WriteLine(User.FindFirst("type")?.Value);
+        System.Console.WriteLine(User.Claims.Count());
         Shoes shoes = shoesService.Get(id);
         if (shoes == null || shoes.UserId != activeUser.Id)
             return NotFound();
         return shoes;
     }
 
-    [HttpGet()]
+    [HttpGet]
+    
     public ActionResult<IEnumerable<Shoes>> Get()
     {
+        System.Console.WriteLine("----get controller----");
+        System.Console.WriteLine(User.Claims);
+        System.Console.WriteLine(User.FindFirst("type")?.Value);
+        System.Console.WriteLine(User.Claims.Count());
         var filteredShoes = shoesService.Get().Where(s => s.UserId == activeUser.Id);
-        return Ok(filteredShoes); 
+        return Ok(filteredShoes);
     }
 
     [HttpPost()]

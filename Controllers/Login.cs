@@ -49,6 +49,11 @@ public class LoginController: ControllerBase
         }
         var token = TokenService.GetToken(claims);
         // Response.Cookies.Append("token", TokenService.WriteToken(token));
+        string aa = TokenService.WriteToken(token);
+        System.Console.WriteLine("login");
+        System.Console.WriteLine(aa);
+        System.Console.WriteLine(claims.Count());
+        System.Console.WriteLine("-----");
         return Ok(TokenService.WriteToken(token));
     }
 
