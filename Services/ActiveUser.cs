@@ -1,8 +1,10 @@
 using CoreProject.Models;
 using System.IdentityModel.Tokens.Jwt;
+
 namespace CoreProject.Services;
 
-public class ActiveUser {
+public class ActiveUser
+{
 
     private readonly IHttpContextAccessor _httpContextAccessor;
     User user { get; }
@@ -19,18 +21,18 @@ public class ActiveUser {
         // קבלת הטוקן מהקוקיז
         if (_httpContextAccessor.HttpContext.Request.Cookies.TryGetValue("AuthToken", out var token))
         {
-            if(token == null)
+            if (token == null)
                 return;
             var handler = new JwtSecurityTokenHandler();
-            
+
             // פענוח הטוקן
             var jwtToken = handler.ReadJwtToken(token);
-            
+
             // הוצאת הערכים (claims)
             var claims = jwtToken.Claims.ToDictionary(c => c.Type, c => c.Value);
             this.user.Id = int.Parse(claims["id"]);
             this.user.Name = claims["name"];
-            this.user.userType = claims["type"];
+            this.user.type = claims["type"];
             // Console.WriteLine("this.user.Id");
             // Console.WriteLine(user.Name);
             // return user; // מחזיר את הטוקן
@@ -38,5 +40,24 @@ public class ActiveUser {
         // return null; // אם לא נמצא טוקן
     }
 
-    public User GetActiveUser() => user;
+    // public User GetActiveUser() => user;
+
+    public User GetActiveUser(string token)
+    {
+        var handler = new JwtSecurityTokenHandler();
+
+        // פענוח הטוקן
+        var jwtToken = handler.ReadJwtToken(token);
+
+        // הוצאת הערכים (claims)
+        var claims = jwtToken.Claims.ToDictionary(c => c.Type, c => c.Value);
+        this.user.Id = int.Parse(claims["id"]);
+        this.user.Name = claims["name"];
+        this.user.type = claims["type"];
+        if (user == null)
+        {
+            throw new UnauthorizedAccessException("User is not authorized.");
+        }
+        return user;
+    }
 }

@@ -14,14 +14,14 @@ public class UserController : ControllerBase
     private IGenericService<User> userService;
     private IGenericService<Shoes> shoesService;
 
-    private User activeUser;
+    private ActiveUser activeUser;
     private readonly ILogger<UserController> _logger;
 
     public UserController(IGenericService<User> userService, IGenericService<Shoes> shoesService, ActiveUser au, ILogger<UserController> logger)
     {
         this.userService = userService;
         this.shoesService = shoesService;
-        this.activeUser = au.GetActiveUser();
+        this.activeUser = au;
         _logger = logger;
 
     }
@@ -29,9 +29,14 @@ public class UserController : ControllerBase
     [HttpGet("{id}")]
     public ActionResult<User> Get(int id)
     {
-        //פלסתר!!!!
-        id = activeUser.Id;
-        User user = userService.Get(id);
+        if (!Request.Headers.TryGetValue("Authorization", out var token))
+        {
+            return Unauthorized();
+        }
+        var tokenValue = token.ToString().Replace("Bearer ", "");
+
+        var id2 = activeUser.GetActiveUser(tokenValue).Id;
+        User user = userService.Get(id2);
         if (user == null)
             return NotFound();
         return user;

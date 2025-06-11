@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R5VlkzzYzGFSeMdr+N4bl1e/OzIW99jMRn2KjY+g4Ik=",
+  "Hash": "IFRjuWGLUGPJ0swLjGKP88+wKv2rq6T7968c3grLhiA=",
   "Source": "CoreProject",
   "BasePath": "_content/CoreProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CoreProject\\wwwroot",
       "Source": "CoreProject",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\admin-shoes.html",
+      "Identity": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\admin-shoes.html",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "RelativePath": "admin-shoes#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -31,17 +31,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4ezdbysdck",
-      "Integrity": "bKfYp/ZDGeloUfGlwrWPzgjoOwcYhsP3H0BaXGACyEo=",
+      "Fingerprint": "5jp87uz6a1",
+      "Integrity": "v31ksb3NvEWlQyJXn3GjTFemXgfa1oPGtbMlg3dXYLE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin-shoes.html"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\assets\\icon.jpg",
+      "Identity": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "RelativePath": "assets/icon#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\icon.jpg"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\assets\\Thumbs.db",
+      "Identity": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "RelativePath": "assets/Thumbs#[.{fingerprint}]?.db",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\Thumbs.db"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\login.html",
+      "Identity": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\login.html",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "RelativePath": "login#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -94,17 +94,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8ff6f682od",
-      "Integrity": "bCVKH252DgqdRwR5qy1CQv+caVaWxkpua3fqy/QOc8M=",
+      "Fingerprint": "g7zqs8zdy6",
+      "Integrity": "RJ+n5jahoV6jLjUeTdkjJqR1DMLVCD9uDMgAMSmpF5g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\login.html"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\shoes.html",
+      "Identity": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\shoes.html",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "RelativePath": "shoes#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -115,17 +115,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "r2u6fbrigq",
-      "Integrity": "PXfmQuqZoFnC1jHwCgYEWlaR2dTnB8rrkx9iOzcNAVI=",
+      "Fingerprint": "f4brqt9ym0",
+      "Integrity": "8ZCLPCUR05bBeUB5Q3vpGkPIyPgWDsFFTxCdTReeVjM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\shoes.html"
     },
     {
-      "Identity": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\users.html",
+      "Identity": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\users.html",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\",
+      "ContentRoot": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "RelativePath": "users#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qwgahvlufm",
-      "Integrity": "5i7sYNnnJBjg8XRRHbkyDjDLvzgS/zYLKNpVRCrhkTw=",
+      "Fingerprint": "x7w9xyh8j6",
+      "Integrity": "o1uEK9pZ7WCTROrqEvos6MIw8YHvvoRS8AIY+nloFeU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\users.html"
@@ -145,8 +145,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "admin-shoes.4ezdbysdck.html",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\admin-shoes.html",
+      "Route": "admin-shoes.5jp87uz6a1.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\admin-shoes.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -155,7 +155,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3176"
+          "Value": "3635"
         },
         {
           "Name": "Content-Type",
@@ -163,11 +163,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bKfYp/ZDGeloUfGlwrWPzgjoOwcYhsP3H0BaXGACyEo=\""
+          "Value": "\"v31ksb3NvEWlQyJXn3GjTFemXgfa1oPGtbMlg3dXYLE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 17:27:34 GMT"
+          "Value": "Tue, 10 Jun 2025 15:05:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -177,7 +177,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4ezdbysdck"
+          "Value": "5jp87uz6a1"
         },
         {
           "Name": "label",
@@ -185,13 +185,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bKfYp/ZDGeloUfGlwrWPzgjoOwcYhsP3H0BaXGACyEo="
+          "Value": "sha256-v31ksb3NvEWlQyJXn3GjTFemXgfa1oPGtbMlg3dXYLE="
         }
       ]
     },
     {
       "Route": "admin-shoes.html",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\admin-shoes.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\admin-shoes.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -200,7 +200,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3176"
+          "Value": "3635"
         },
         {
           "Name": "Content-Type",
@@ -208,11 +208,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bKfYp/ZDGeloUfGlwrWPzgjoOwcYhsP3H0BaXGACyEo=\""
+          "Value": "\"v31ksb3NvEWlQyJXn3GjTFemXgfa1oPGtbMlg3dXYLE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 17:27:34 GMT"
+          "Value": "Tue, 10 Jun 2025 15:05:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -222,13 +222,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bKfYp/ZDGeloUfGlwrWPzgjoOwcYhsP3H0BaXGACyEo="
+          "Value": "sha256-v31ksb3NvEWlQyJXn3GjTFemXgfa1oPGtbMlg3dXYLE="
         }
       ]
     },
     {
       "Route": "assets/icon.1mpbm214k0.jpg",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\assets\\icon.jpg",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -273,7 +273,7 @@
     },
     {
       "Route": "assets/icon.jpg",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\assets\\icon.jpg",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -310,7 +310,7 @@
     },
     {
       "Route": "assets/Thumbs.db",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\assets\\Thumbs.db",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -347,7 +347,7 @@
     },
     {
       "Route": "assets/Thumbs.jk9mzl7uwt.db",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\assets\\Thumbs.db",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -391,8 +391,8 @@
       ]
     },
     {
-      "Route": "login.8ff6f682od.html",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\login.html",
+      "Route": "login.g7zqs8zdy6.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\login.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -401,7 +401,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2412"
+          "Value": "2536"
         },
         {
           "Name": "Content-Type",
@@ -409,11 +409,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bCVKH252DgqdRwR5qy1CQv+caVaWxkpua3fqy/QOc8M=\""
+          "Value": "\"RJ+n5jahoV6jLjUeTdkjJqR1DMLVCD9uDMgAMSmpF5g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 17:37:56 GMT"
+          "Value": "Tue, 10 Jun 2025 15:05:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -423,7 +423,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8ff6f682od"
+          "Value": "g7zqs8zdy6"
         },
         {
           "Name": "label",
@@ -431,13 +431,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bCVKH252DgqdRwR5qy1CQv+caVaWxkpua3fqy/QOc8M="
+          "Value": "sha256-RJ+n5jahoV6jLjUeTdkjJqR1DMLVCD9uDMgAMSmpF5g="
         }
       ]
     },
     {
       "Route": "login.html",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\login.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\login.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -446,7 +446,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2412"
+          "Value": "2536"
         },
         {
           "Name": "Content-Type",
@@ -454,11 +454,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bCVKH252DgqdRwR5qy1CQv+caVaWxkpua3fqy/QOc8M=\""
+          "Value": "\"RJ+n5jahoV6jLjUeTdkjJqR1DMLVCD9uDMgAMSmpF5g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 17:37:56 GMT"
+          "Value": "Tue, 10 Jun 2025 15:05:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -468,13 +468,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bCVKH252DgqdRwR5qy1CQv+caVaWxkpua3fqy/QOc8M="
+          "Value": "sha256-RJ+n5jahoV6jLjUeTdkjJqR1DMLVCD9uDMgAMSmpF5g="
         }
       ]
     },
     {
-      "Route": "shoes.html",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\shoes.html",
+      "Route": "shoes.f4brqt9ym0.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\shoes.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -483,7 +483,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4317"
+          "Value": "4547"
         },
         {
           "Name": "Content-Type",
@@ -491,48 +491,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PXfmQuqZoFnC1jHwCgYEWlaR2dTnB8rrkx9iOzcNAVI=\""
+          "Value": "\"8ZCLPCUR05bBeUB5Q3vpGkPIyPgWDsFFTxCdTReeVjM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 17:27:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PXfmQuqZoFnC1jHwCgYEWlaR2dTnB8rrkx9iOzcNAVI="
-        }
-      ]
-    },
-    {
-      "Route": "shoes.r2u6fbrigq.html",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\shoes.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4317"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PXfmQuqZoFnC1jHwCgYEWlaR2dTnB8rrkx9iOzcNAVI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 17:27:48 GMT"
+          "Value": "Tue, 10 Jun 2025 13:42:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -542,7 +505,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "r2u6fbrigq"
+          "Value": "f4brqt9ym0"
         },
         {
           "Name": "label",
@@ -550,13 +513,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PXfmQuqZoFnC1jHwCgYEWlaR2dTnB8rrkx9iOzcNAVI="
+          "Value": "sha256-8ZCLPCUR05bBeUB5Q3vpGkPIyPgWDsFFTxCdTReeVjM="
         }
       ]
     },
     {
-      "Route": "users.html",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\users.html",
+      "Route": "shoes.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\shoes.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -565,7 +528,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4689"
+          "Value": "4547"
         },
         {
           "Name": "Content-Type",
@@ -573,11 +536,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5i7sYNnnJBjg8XRRHbkyDjDLvzgS/zYLKNpVRCrhkTw=\""
+          "Value": "\"8ZCLPCUR05bBeUB5Q3vpGkPIyPgWDsFFTxCdTReeVjM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 17:27:40 GMT"
+          "Value": "Tue, 10 Jun 2025 13:42:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -587,13 +550,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5i7sYNnnJBjg8XRRHbkyDjDLvzgS/zYLKNpVRCrhkTw="
+          "Value": "sha256-8ZCLPCUR05bBeUB5Q3vpGkPIyPgWDsFFTxCdTReeVjM="
         }
       ]
     },
     {
-      "Route": "users.qwgahvlufm.html",
-      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\wwwroot\\users.html",
+      "Route": "users.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\users.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -602,7 +565,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4689"
+          "Value": "4878"
         },
         {
           "Name": "Content-Type",
@@ -610,11 +573,48 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5i7sYNnnJBjg8XRRHbkyDjDLvzgS/zYLKNpVRCrhkTw=\""
+          "Value": "\"o1uEK9pZ7WCTROrqEvos6MIw8YHvvoRS8AIY+nloFeU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 17:27:40 GMT"
+          "Value": "Tue, 10 Jun 2025 13:42:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o1uEK9pZ7WCTROrqEvos6MIw8YHvvoRS8AIY+nloFeU="
+        }
+      ]
+    },
+    {
+      "Route": "users.x7w9xyh8j6.html",
+      "AssetFile": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\users.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o1uEK9pZ7WCTROrqEvos6MIw8YHvvoRS8AIY+nloFeU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 10 Jun 2025 13:42:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -624,7 +624,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "qwgahvlufm"
+          "Value": "x7w9xyh8j6"
         },
         {
           "Name": "label",
@@ -632,7 +632,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5i7sYNnnJBjg8XRRHbkyDjDLvzgS/zYLKNpVRCrhkTw="
+          "Value": "sha256-o1uEK9pZ7WCTROrqEvos6MIw8YHvvoRS8AIY+nloFeU="
         }
       ]
     }

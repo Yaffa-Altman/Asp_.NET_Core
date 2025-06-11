@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bd8vqkeYCAc=",
+  "dgSpecHash": "LB2KtEpEikc=",
   "success": true,
-  "projectFilePath": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\CoreProject.csproj",
+  "projectFilePath": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\CoreProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.11\\microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512",
     "C:\\Users\\huser\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",

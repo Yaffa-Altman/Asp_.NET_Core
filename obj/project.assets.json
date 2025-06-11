@@ -1861,11 +1861,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\CoreProject.csproj",
+      "projectUniqueName": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\CoreProject.csproj",
       "projectName": "CoreProject",
-      "projectPath": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\CoreProject.csproj",
+      "projectPath": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\CoreProject.csproj",
       "packagesPath": "C:\\Users\\huser\\.nuget\\packages\\",
-      "outputPath": "Z:\\B\\אלטמן יפה\\Core\\‏‏תיקיה חדשה\\Asp_.NET_Core-main\\obj\\",
+      "outputPath": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
