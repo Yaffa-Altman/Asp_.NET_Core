@@ -51,7 +51,6 @@ public class ShoesController : ControllerBase
     }
 
     [HttpGet]
-    
     public ActionResult<IEnumerable<Shoes>> Get()
     {
         // System.Console.WriteLine("----get controller----");
@@ -68,7 +67,7 @@ public class ShoesController : ControllerBase
 
         var id = activeUser.GetActiveUser(tokenValue).Id;
 
-        var filteredShoes = shoesService.Get().Where(s => s.UserId == id);
+        var filteredShoes = shoesService.Get();//.Where(s => s.UserId == id);
         return Ok(filteredShoes);
     }
 
@@ -96,6 +95,7 @@ public class ShoesController : ControllerBase
     [HttpPut("{id}")]
     public ActionResult Put(int id, Shoes shoes)
     {
+    
         if (!Request.Headers.TryGetValue("Authorization", out var token))
         {
             return Unauthorized();

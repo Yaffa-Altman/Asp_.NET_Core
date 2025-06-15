@@ -14,7 +14,14 @@ public class GenericService<T> : IGenericService<T> where T : GenericId
     }
 
     public T Get(int id) => Items.FirstOrDefault(p => p.Id == id);
-    public List<T> Get() => Items;
+    public List<T> Get() {
+        Console.WriteLine("!!!!!!!!!!!!");
+        Console.WriteLine(Items.Count);
+        Items.ForEach(item => Console.WriteLine(item.Name));
+        Console.WriteLine(Items);
+        return Items; 
+    } 
+
     public int Add(T item)
     {
         if (item.Name == null
@@ -28,6 +35,7 @@ public class GenericService<T> : IGenericService<T> where T : GenericId
     }
     public bool Update(int id, T item)
     {
+        Console.WriteLine("-----------"+item.Id+"----"+id);
         if (item == null
             || string.IsNullOrWhiteSpace(item.Name)
             || item.Id != id
@@ -35,13 +43,12 @@ public class GenericService<T> : IGenericService<T> where T : GenericId
         {
             return false;
         }
-
         T shs = Items?.FirstOrDefault(p => p.Id == id);
         if (shs == null)
             return false;
-
         var index = Items.IndexOf(shs);
-        Items[index] = item;
+        shs.Name = item.Name;
+        Items[index] = shs;
         jsonService.saveToFile();
         return true;
     }

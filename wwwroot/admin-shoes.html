@@ -47,26 +47,55 @@
                     'Authorization': 'Bearer ' + token
                 }
             });
+            const resUsers = await fetch('http://localhost:5187/User', {
+                headers: {
+                    'Authorization': 'Bearer ' + token
+                }
+            });
+            const allUsers = await resUsers.json();
+            allUsers.forEach(user => {
+                console.log(user);
+            });
+            
             const allShoes = await res.json();
             const list = document.getElementById('allShoesList');
             list.innerHTML = '';
+            console.log("!!!!!!!!!!!");
+              allShoes.forEach(user => {
+                console.log(user);
+            });
+            
             allShoes.forEach(item => {
                 const li = document.createElement('li');
                 li.className = "list-group-item d-flex justify-content-between align-items-center";
                 li.innerHTML = `
-                    <span><b>${item.userName}:</b> ${item.shoeName}</span>
+                    <span><b>${findUser(item,allUsers).name}:</b> ${item.name} <b>${showIsElegant(item.isElegant)}</b></span>
                     <span>
-                        <button onclick="editShoe(${item.shoeId}, '${item.shoeName}')" class="btn btn-sm btn-warning ms-2">ערוך</button>
-                        <button onclick="deleteShoe(${item.shoeId})" class="btn btn-sm btn-danger">מחק</button>
+                        <button onclick="editShoe(${item.id}, '${item.name}')" class="btn btn-sm btn-warning ms-2">ערוך</button>
+                        <button onclick="deleteShoe(${item.id})" class="btn btn-sm btn-danger">מחק</button>
                     </span>
                 `;
                 list.appendChild(li);
             });
         }
+        showIsElegant = (isElegant) => {
+            if(isElegant)
+                return "Elegant";
+            return "";
+        }
+        
+        findUser = (item,allUsers) => {
+            const user = allUsers.find(user => user.id === item.userId);
+            console.log(user);
+            console.log(user.name);
+            return user ? user :"לא נמצא משתמש";
+        }
 
         window.editShoe = async function(id, oldName) {
             const newName = prompt('שם חדש לנעל:', oldName);
+            // const newIsElegant = prompt('שם חדש לנעל:', oldName);
             if (!newName) return;
+
             const token = getCookie('AuthToken');
             await fetch('http://localhost:5187/Shoes/' + id, {
                 method: 'PUT',
@@ -75,11 +104,16 @@
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    name: newName
+                    Id: id,
+                    Name: newName,
+                    isElegant: true,
+                    UserId: 0
+
                 })
             });
             fetchAllShoes();
         };
+        
 
         window.deleteShoe = async function(id) {
             const token = getCookie('AuthToken');

@@ -1,32 +1,28 @@
 {
   "Files": [
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\admin-shoes.html",
+      "Id": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\admin-shoes.html",
       "PackagePath": "staticwebassets\\admin-shoes.html"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
+      "Id": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
       "PackagePath": "staticwebassets\\assets\\Thumbs.db"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
+      "Id": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
       "PackagePath": "staticwebassets\\assets\\icon.jpg"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\login.html",
+      "Id": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\login.html",
       "PackagePath": "staticwebassets\\login.html"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\shoes.html",
+      "Id": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\shoes.html",
       "PackagePath": "staticwebassets\\shoes.html"
     },
     {
-      "Id": "Z:\\B\\אלטמן יפה\\Core\\current commit\\Asp_.NET_Core\\wwwroot\\users.html",
+      "Id": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\users.html",
       "PackagePath": "staticwebassets\\users.html"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoreProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CoreProject.Microsoft.AspNetCore.StaticWebAssets.props",
