@@ -37,8 +37,14 @@
         </div>
     </div>
     <script>
-        async function fetchUsers() {
-            const token = sessionStorage.getItem('token');
+        getCookie = (name) => {
+            const value = `; ${document.cookie}`;
+            const parts = value.split(`; ${name}=`);
+            if (parts.length === 2) return parts.pop().split(';').shift();
+        }
+
+        fetchUsers = async() => {
+            const token = getCookie('token');
             const res = await fetch('http://localhost:5187/User', {
                 headers: {
                     'Authorization': 'Bearer ' + token
@@ -64,7 +70,7 @@
 
         document.getElementById('addUserForm').onsubmit = async function(e) {
             e.preventDefault();
-            const token = sessionStorage.getItem('token');
+            const token = getCookie('token');
             await fetch('http://localhost:5187/User', {
                 method: 'POST',
                 headers: {
@@ -84,7 +90,7 @@
             const newName = prompt('שם חדש:', oldName);
             const newType = prompt('סוג חדש (USER/ADMIN):', oldType);
             if (!newName || !newType) return;
-            const token = sessionStorage.getItem('token');
+            const token = getCookie('token');
             await fetch('http://localhost:5187/User/' + id, {
                 method: 'PUT',
                 headers: {
@@ -100,7 +106,7 @@
         };
 
         window.deleteUser = async function(id) {
-            const token = sessionStorage.getItem('token');
+            const token = getCookie('token');
             await fetch('http://localhost:5187/User/' + id, {
                 method: 'DELETE',
                 headers: {

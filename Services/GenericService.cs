@@ -1,5 +1,6 @@
 using CoreProject.Models;
 using CoreProject.interfaces;
+using Serilog;
 
 namespace CoreProject.Services;
 
@@ -9,49 +10,77 @@ public class GenericService<T> : IGenericService<T> where T : GenericId
     List<T> Items { get; }
 
     public GenericService(IHostEnvironment env){
+        Log.Information($"start GenericService<{typeof(T).Name}> Constructor");
         jsonService = new JsonService<T>(env);
         Items = jsonService.GetItems();
+        Log.Information($"end GenericService<{typeof(T).Name}> Constructor");
     }
 
-    public T Get(int id) => Items.FirstOrDefault(p => p.Id == id);
-    public List<T> Get() => Items;
+    public T Get(int id) {
+        Log.Information($"in GenericService<{typeof(T).Name}> Get{"+id+"}");
+        return Items.FirstOrDefault(p => p.Id == id);
+    }
+    public List<T> Get() {
+        // Console.WriteLine("!!!!!!!!!!!!");
+        // Console.WriteLine(Items.Count);
+        // Items.ForEach(item => Console.WriteLine(item.Name));
+        // Console.WriteLine(Items);
+        Log.Information($"in GenericService<{typeof(T).Name}> Get");
+        return Items; 
+    } 
+
     public int Add(T item)
     {
+        Log.Information($"start GenericService<{typeof(T).Name}> Add");
         if (item.Name == null
-        || (typeof(T).Name == "User" && string.IsNullOrWhiteSpace(typeof(T).GetProperty("Password")?.GetValue(item)?.ToString())))
+        || (typeof(T).Name == "User" && string.IsNullOrWhiteSpace(typeof(T).GetProperty("Password")?.GetValue(item)?.ToString()))){
+            Log.Information($"in GenericService<{typeof(T).Name}> Add - name {typeof(T).Name} or/and password is null");
             return -1;
+        }
         int maxId = Items.Max(p => p.Id);
         item.Id = maxId + 1;
         Items.Add(item);
         jsonService.saveToFile();
+        Log.Information($"end GenericService<{typeof(T).Name}> Add");
         return item.Id;
     }
     public bool Update(int id, T item)
     {
+        Log.Information($"start GenericService<{typeof(T).Name}> Update");
+        // Console.WriteLine("-----------"+item.Id+"----"+id);
         if (item == null
             || string.IsNullOrWhiteSpace(item.Name)
             || item.Id != id
             || (typeof(T).Name == "User" && string.IsNullOrWhiteSpace(typeof(T).GetProperty("Password")?.GetValue(item)?.ToString())))
         {
+            Log.Information($"in GenericService<{typeof(T).Name}> Update - {typeof(T).Name} or {typeof(T).Name} name or password (if user) is null, or id not correct.");
             return false;
         }
-
-        T shs = Items?.FirstOrDefault(p => p.Id == id);
-        if (shs == null)
+        T itm = Items?.FirstOrDefault(p => p.Id == id);
+        if (itm == null)
+        {
+            Log.Information($"in GenericService<{typeof(T).Name}> Update - {typeof(T).Name} not found");
             return false;
-
-        var index = Items.IndexOf(shs);
-        Items[index] = item;
+        }
+        var index = Items.IndexOf(itm);
+        itm.Name = item.Name;
+        Items[index] = itm;
         jsonService.saveToFile();
+        Log.Information($"end GenericService<{typeof(T).Name}> Update");
         return true;
     }
     public bool Delete(int id)
     {
+        Log.Information($"start GenericService<{typeof(T).Name}> Delete");
         T item = Get(id);
         if (item is null)
+        {
+            Log.Information($"in GenericService<{typeof(T).Name}> Delete - not found {typeof(T).Name}");
             return false;
+        }
         Items.Remove(item);
         jsonService.saveToFile();
+        Log.Information($"end GenericService<{typeof(T).Name}> Delete");
         return true;
     }
 }

@@ -614,3 +614,121 @@ Z:\B\אלטמן יפה\Core\current commit\Asp_.NET_Core\obj\Debug\net8.0\refint
 Z:\B\אלטמן יפה\Core\current commit\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.pdb
 Z:\B\אלטמן יפה\Core\current commit\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.genruntimeconfig.cache
 Z:\B\אלטמן יפה\Core\current commit\Asp_.NET_Core\obj\Debug\net8.0\ref\CoreProject.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\appsettings.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\DataForCopy\Shoes.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\DataForCopy\User.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Data\Shoes.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Data\user.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\package-lock.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\package.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.staticwebassets.runtime.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.exe
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.deps.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.runtimeconfig.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.pdb
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.csproj.AssemblyReference.cache
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.AssemblyInfoInputs.cache
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.AssemblyInfo.cs
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.sourcelink.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets\msbuild.CoreProject.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets\msbuild.build.CoreProject.props
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CoreProject.props
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CoreProject.props
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\scopedcss\bundle\CoreProject.styles.css
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProj.FF7014C9.Up2Date
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\refint\CoreProject.dll
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.pdb
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.genruntimeconfig.cache
+C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\ref\CoreProject.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.csproj.AssemblyReference.cache
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.GeneratedMSBuildEditorConfig.editorconfig
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.AssemblyInfoInputs.cache
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.AssemblyInfo.cs
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.csproj.CoreCompileInputs.cache
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.MvcApplicationPartsAssemblyInfo.cs
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.MvcApplicationPartsAssemblyInfo.cache
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.sourcelink.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\refint\CoreProject.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.pdb
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\appsettings.Development.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\appsettings.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\DataForCopy\Shoes.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\DataForCopy\User.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Data\Shoes.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Data\user.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\package-lock.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\package.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.staticwebassets.runtime.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.exe
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.deps.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.runtimeconfig.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\CoreProject.pdb
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Microsoft.OpenApi.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Serilog.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Serilog.AspNetCore.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Serilog.Sinks.File.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets.build.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets.development.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets\msbuild.CoreProject.Microsoft.AspNetCore.StaticWebAssets.props
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets\msbuild.build.CoreProject.props
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CoreProject.props
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CoreProject.props
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\staticwebassets.pack.json
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\scopedcss\bundle\CoreProject.styles.css
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.csproj.CopyComplete
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.genruntimeconfig.cache
+Z:\B\אלטמן יפה\‏‏תיקיה חדשה\Asp_.NET_Core\obj\Debug\net8.0\ref\CoreProject.dll

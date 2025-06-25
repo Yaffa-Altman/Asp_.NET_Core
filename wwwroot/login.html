@@ -44,7 +44,7 @@
                 const data = await res.text();
                 document.cookie = `AuthToken=${data}; `;
                 //plaster id
-                const userRes = await fetch('http://localhost:5187/User/6', {
+                const userRes = await fetch('http://localhost:5187/User/5', {
                     headers: {
                         'Authorization': 'Bearer ' + data
                     }

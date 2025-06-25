@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Logging;
 namespace CoreProject.Controllers;
+using Serilog;
 
 [ApiController]
 [Route("[controller]")]
@@ -19,26 +20,32 @@ public class UserController : ControllerBase
 
     public UserController(IGenericService<User> userService, IGenericService<Shoes> shoesService, ActiveUser au, ILogger<UserController> logger)
     {
+        Log.Information("start userController Constructor");
         this.userService = userService;
         this.shoesService = shoesService;
         this.activeUser = au;
         _logger = logger;
-
+        Log.Information("end userController Constructor");
     }
 
     [HttpGet("{id}")]
     public ActionResult<User> Get(int id)
     {
+        Log.Information("start userController Get{"+id+"}");
         if (!Request.Headers.TryGetValue("Authorization", out var token))
         {
+            Log.Information("in userController Get{"+id+"} - Unauthorized");
             return Unauthorized();
         }
         var tokenValue = token.ToString().Replace("Bearer ", "");
 
         var id2 = activeUser.GetActiveUser(tokenValue).Id;
         User user = userService.Get(id2);
-        if (user == null)
+        if (user == null){
+            Log.Information("in userController Get{"+id+"} - NotFound user");
             return NotFound();
+        }
+        Log.Information("end userController Get{"+id+"}");
         return user;
     }
 
@@ -46,18 +53,23 @@ public class UserController : ControllerBase
     [Authorize(Policy = "ADMIN")]
     public ActionResult<IEnumerable<User>> Get()
     {
-        return userService.Get();
+        Log.Information("start end userController Get");
+        List<User> users =  userService.Get();
+        return users;
     }
 
     [HttpPost()]
     [Authorize(Policy = "ADMIN")]
     public ActionResult Post(User user)
     {
+        Log.Information("start userController Post");
         int result = userService.Add(user);
         if (result == -1)
         {
+            Log.Information("in userController Post - absent user name or user password");
             return BadRequest();
         }
+        Log.Information("end userController Post");
         return CreatedAtAction(nameof(Post), new { Id = result });
     }
 
@@ -75,7 +87,9 @@ public class UserController : ControllerBase
     [Authorize(Policy = "ADMIN")]
     public ActionResult Delete(int id)
     {
-        _logger.LogInformation("id");
+        _logger.LogInformation("id");//what between _logger to Log?
+        Log.Information("start userController Delete");
+
         // var item = Get(id);
         // if (item == null)
         // {
@@ -90,8 +104,10 @@ public class UserController : ControllerBase
         bool result = userService.Delete(id);
         if (result)
         {
+            Log.Information("end userController Delete");
             return Ok();
         }
+        Log.Information("in userController Delete - Notfound");
         return NotFound();
     }
 

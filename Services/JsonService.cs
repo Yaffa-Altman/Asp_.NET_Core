@@ -1,4 +1,5 @@
 using System.Text.Json;
+using Serilog;
 namespace CoreProject.Services;
 
 public class JsonService<T>{
@@ -8,6 +9,7 @@ public class JsonService<T>{
 
     public JsonService(IHostEnvironment env)
     {
+        Log.Information("start JsonService Constructor");
         filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
         
         using (var jsonFile = File.OpenText(filePath))
@@ -18,12 +20,19 @@ public class JsonService<T>{
                 PropertyNameCaseInsensitive = true
             });
         }
+        Log.Information("end JsonService Constructor");
     }
 
-    public List<T> GetItems() => Items;
+    public List<T> GetItems()
+    { 
+        Log.Information("start end JsonService GetItems");
+        return Items;
+    }
 
     public void saveToFile()
     {
+        Log.Information("start JsonService saveToFile");
         File.WriteAllText(filePath, JsonSerializer.Serialize(Items));
+        Log.Information("end JsonService saveToFile");
     }
 }

@@ -6,6 +6,7 @@ using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using Serilog;
 // using Microsoft.Extensions.Hosting;
 
 namespace CoreProject.Services;
@@ -54,19 +55,19 @@ public static class TokenService
     // {
     //     throw new NotImplementedException();
     // }
-     public static bool LifetimeValidator(DateTime? notBefore, DateTime? expires, SecurityToken token, TokenValidationParameters validationParameters)
-{
-    // קביעת התוקף של הטוקן ל-30 ימים
-    var expirationDate = notBefore?.AddMinutes(1);
-
-    // בדיקה האם התוקף המוגדר הוא קטן מהתאריך הנוכחי
-    if (expirationDate < DateTime.UtcNow)
+    public static bool LifetimeValidator(DateTime? notBefore, DateTime? expires, SecurityToken token, TokenValidationParameters validationParameters)
     {
-        // התוקף פג, מסר תוקף לא חוקי
-        return false;
-    }
+        // קביעת התוקף של הטוקן ל-30 ימים
+        var expirationDate = notBefore?.AddMinutes(1);
+        Log.Information("in TokenService LifetimeValidator");
+        // בדיקה האם התוקף המוגדר הוא קטן מהתאריך הנוכחי
+        if (expirationDate < DateTime.UtcNow)
+        {
+            // התוקף פג, מסר תוקף לא חוקי
+            return false;
+        }
 
-    // התוקף עדיין תקף
-    return true;
-}
+        // התוקף עדיין תקף
+        return true;
+    }
 }
