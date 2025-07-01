@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Logging;
 namespace CoreProject.Controllers;
+using Serilog;
 
 [ApiController]
 [Route("[controller]")]

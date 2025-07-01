@@ -1,5 +1,6 @@
 using CoreProject.Models;
 using System.IdentityModel.Tokens.Jwt;
+using Serilog;
 
 namespace CoreProject.Services;
 

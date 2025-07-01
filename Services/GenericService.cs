@@ -1,5 +1,6 @@
 using CoreProject.Models;
 using CoreProject.interfaces;
+using Serilog;
 
 namespace CoreProject.Services;
 
@@ -8,7 +9,6 @@ public class GenericService<T> : IGenericService<T> where T : GenericId
     private JsonService<T> jsonService;
     private readonly ILogger<GenericService<T>> _logger;
     List<T> Items { get; }
-
     public GenericService(IHostEnvironment env, ILogger<GenericService<T>> logger){
         _logger.LogInformation($"start GenericService<{typeof(T).Name}> Constructor");
         jsonService = new JsonService<T>(env);
@@ -25,7 +25,7 @@ public class GenericService<T> : IGenericService<T> where T : GenericId
         // Console.WriteLine("!!!!!!!!!!!!");
         // Console.WriteLine(Items.Count);
         // Items.ForEach(item => Console.WriteLine(item.Name));
-        // Console.WriteLine(Items);
+        // Console.WriteLine(Items)
         _logger.LogInformation($"in GenericService<{typeof(T).Name}> Get");
         return Items; 
     } 

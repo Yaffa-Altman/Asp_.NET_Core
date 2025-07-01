@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using CoreProject.Models;
 using CoreProject.Services;
 using CoreProject.interfaces;
+using Serilog;
 
 
 namespace CoreProject.Controllers;

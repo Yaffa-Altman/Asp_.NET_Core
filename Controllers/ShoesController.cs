@@ -23,7 +23,6 @@ public class ShoesController : ControllerBase
     public ShoesController(IGenericService<Shoes> shoesService, ActiveUser au, ILogger<ShoesController> logger)
     {
         // System.Console.WriteLine("ctor controller");
-
         _logger.LogInformation("start shoesController constructor");
         this.shoesService = shoesService;
         this.activeUser = au;
