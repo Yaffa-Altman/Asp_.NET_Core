@@ -1,5 +1,0 @@
-2025-06-10 18:02:41.117 +03:00 [INF] in shoes controller constructor
-2025-06-10 18:04:28.407 +03:00 [INF] in shoes controller constructor
-2025-06-10 18:04:31.377 +03:00 [INF] in shoes controller constructor
-2025-06-10 18:04:33.219 +03:00 [INF] in shoes controller constructor
-2025-06-10 18:04:53.449 +03:00 [INF] in shoes controller constructor

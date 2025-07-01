@@ -17,6 +17,7 @@
                 <div class="card-header">רשימת נעליים</div>
                 <ul id="allShoesList" class="list-group list-group-flush"></ul>
             </div>
+            <a href="./users.html">הצגת המשתמשים</a>
         </div>
     </div>
     <script>
@@ -53,17 +54,17 @@
                 }
             });
             const allUsers = await resUsers.json();
-            allUsers.forEach(user => {
-                console.log(user);
-            });
+            // allUsers.forEach(user => {
+            //     console.log(user);
+            // });
             
             const allShoes = await res.json();
             const list = document.getElementById('allShoesList');
             list.innerHTML = '';
-            console.log("!!!!!!!!!!!");
-              allShoes.forEach(user => {
-                console.log(user);
-            });
+            // console.log("!!!!!!!!!!!");
+            //   allShoes.forEach(user => {
+            //     console.log(user);
+            // });
             
             allShoes.forEach(item => {
                 const li = document.createElement('li');
@@ -86,8 +87,8 @@
         
         findUser = (item,allUsers) => {
             const user = allUsers.find(user => user.id === item.userId);
-            console.log(user);
-            console.log(user.name);
+            // console.log(user);
+            // console.log(user.name);
             return user ? user :"לא נמצא משתמש";
         }
 

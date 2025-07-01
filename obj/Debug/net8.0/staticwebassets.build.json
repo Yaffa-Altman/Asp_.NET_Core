@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XvEjNN6LdFnLo7N2YlTa0m3TmaxhdFBmXx8yPuJxIcY=",
+  "Hash": "eV+Iucb3C/5cBpkWCA3NMTRaP9ckqv2YOXRI37O74yo=",
   "Source": "CoreProject",
   "BasePath": "_content/CoreProject",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CoreProject\\wwwroot",
       "Source": "CoreProject",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\admin-shoes.html",
+      "Identity": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\admin-shoes.html",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "RelativePath": "admin-shoes.html",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\admin-shoes.html"
     },
     {
-      "Identity": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
+      "Identity": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\assets\\icon.jpg",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "RelativePath": "assets/icon.jpg",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\icon.jpg"
     },
     {
-      "Identity": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
+      "Identity": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\assets\\Thumbs.db",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "RelativePath": "assets/Thumbs.db",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\Thumbs.db"
     },
     {
-      "Identity": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\login.html",
+      "Identity": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\login.html",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "RelativePath": "login.html",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\login.html"
     },
     {
-      "Identity": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\shoes.html",
+      "Identity": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\shoes.html",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "RelativePath": "shoes.html",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\shoes.html"
     },
     {
-      "Identity": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\users.html",
+      "Identity": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\users.html",
       "SourceId": "CoreProject",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\1\\Desktop\\מקצועות יד\\core\\Asp_.NET_Core\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\The user\\Desktop\\תכנות\\שנה ב\\Core\\Home Work\\Asp_.NET_Core\\wwwroot\\",
       "BasePath": "_content/CoreProject",
       "RelativePath": "users.html",
       "AssetKind": "All",

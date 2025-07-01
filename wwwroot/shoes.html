@@ -75,7 +75,7 @@
 
         document.getElementById('addShoeForm').onsubmit = async function(e) {
             e.preventDefault();
-            const token = sessionStorage.getItem('token');
+            const token = getCookie('token');
             await fetch('http://localhost:5187/Shoes', {
                 method: 'POST',
                 headers: {
@@ -92,7 +92,7 @@
         window.editShoe = async function(id, oldName) {
             const newName = prompt('שם חדש לנעל:', oldName);
             if (!newName) return;
-            const token = sessionStorage.getItem('token');
+            const token = getCookie('token');
             await fetch('http://localhost:5187/Shoes/' + id, {
                 method: 'PUT',
                 headers: {
@@ -107,7 +107,7 @@
         };
 
         window.deleteShoe = async function(id) {
-            const token = sessionStorage.getItem('token');
+            const token = getCookie('token');
             await fetch('http://localhost:5187/Shoes/' + id, {
                 method: 'DELETE',
                 headers: {
