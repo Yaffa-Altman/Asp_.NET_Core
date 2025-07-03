@@ -19,10 +19,10 @@ public class LoginController: ControllerBase
     private readonly ILogger<LoginController> _logger;
 
     public LoginController(IGenericService<User> userService, JsonService<User> jsonService, ILogger<LoginController> logger) { 
+        _logger = logger;
         _logger.LogInformation("start LoginController Constructor");
         this.userService = userService;
         this.jsonService = jsonService;
-        _logger = logger;
         _logger.LogInformation("end LoginController Constructor");
     }
 

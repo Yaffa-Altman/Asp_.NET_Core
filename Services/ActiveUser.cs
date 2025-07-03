@@ -13,10 +13,10 @@ public class ActiveUser
 
     public ActiveUser(IHttpContextAccessor httpContextAccessor, ILogger<ActiveUser> logger)
     {
+        _logger = logger;
         _logger.LogInformation("start ActiveUser Constructor");
         this.user = new User();
         _httpContextAccessor = httpContextAccessor;
-        _logger = logger;
         // GetTokenFromCookies();
         _logger.LogInformation("end ActiveUser Constructor");
     }

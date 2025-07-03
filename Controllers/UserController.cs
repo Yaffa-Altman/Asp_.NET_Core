@@ -19,11 +19,11 @@ public class UserController : ControllerBase
 
     public UserController(IGenericService<User> userService, IGenericService<Shoes> shoesService, ActiveUser au, ILogger<UserController> logger)
     {
+        _logger = logger;
         _logger.LogInformation("start userController Constructor");
         this.userService = userService;
         this.shoesService = shoesService;
         this.activeUser = au;
-        _logger = logger;
         _logger.LogInformation("end userController Constructor");
     }
 
@@ -52,8 +52,10 @@ public class UserController : ControllerBase
     [Authorize(Policy = "ADMIN")]
     public ActionResult<IEnumerable<User>> Get()
     {
-        _logger.LogInformation("start end userController Get");
-        return userService.Get();
+        _logger.LogInformation("start userController Get");
+        List<User> list = userService.Get();
+        _logger.LogInformation("end userController Get");
+        return list;
     }
 
     [HttpPost()]
@@ -71,15 +73,15 @@ public class UserController : ControllerBase
         return CreatedAtAction(nameof(Post), new { Id = result });
     }
 
-    // [HttpPut("{id}")]
-    // public ActionResult Put(int id, User user)
-    // {
-    //     bool result = userService.Update(id,user);
-    //     if(result){
-    //         return NoContent();
-    //     }
-    //     return BadRequest();
-    // }
+    [HttpPut("{id}")]
+    public ActionResult Put(int id, User user)
+    {
+        bool result = userService.Update(id,user);
+        if(result){
+            return NoContent();
+        }
+        return BadRequest();
+    }
 
     [HttpDelete("{id}")]
     [Authorize(Policy = "ADMIN")]

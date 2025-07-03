@@ -35,19 +35,14 @@ public static class TokenService
     GetTokenValidationParameters() =>
         new TokenValidationParameters
         {
-            // // ValidateIssuerSigningKey = true,
-            // IssuerSigningKey = key,
-            // ValidateIssuer = true,
-            // ValidIssuer = issuer,
-            // ValidateAudience = true,
-            // // ValidAudience = audience,
-            // ClockSkew = TimeSpan.Zero 
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateIssuerSigningKey = true,
             ValidIssuer = issuer,
             ValidAudience = issuer,
             IssuerSigningKey = key,
-            //ClockSkew = TimeSpan.Zero, // remove delay of token when expire
-            LifetimeValidator = LifetimeValidator //TimeSpan.FromDays(30)
-
+            LifetimeValidator = LifetimeValidator,
+            ClockSkew = TimeSpan.Zero 
         };
 
 
@@ -57,16 +52,21 @@ public static class TokenService
     // }
     public static bool LifetimeValidator(DateTime? notBefore, DateTime? expires, SecurityToken token, TokenValidationParameters validationParameters)
     {
-        // קביעת התוקף של הטוקן ל-30 ימים
-        var expirationDate = notBefore?.AddMinutes(1);
-        // בדיקה האם התוקף המוגדר הוא קטן מהתאריך הנוכחי
-        if (expirationDate < DateTime.UtcNow)
-        {
-            // התוקף פג, מסר תוקף לא חוקי
-            return false;
-        }
+        // // קביעת התוקף של הטוקן ל-30 ימים
+        // var expirationDate = notBefore?.AddMinutes(30);
+        // // בדיקה האם התוקף המוגדר הוא קטן מהתאריך הנוכחי
+        // if (expirationDate < DateTime.UtcNow)
+        // {
+        //     // התוקף פג, מסר תוקף לא חוקי
+        //     return false;
+        // }
 
-        // התוקף עדיין תקף
-        return true;
-    }
+        // // התוקף עדיין תקף
+        // return true;
+        if (expires != null)
+        {
+            return expires > DateTime.UtcNow;
+        }
+        return false;
+        }
 }

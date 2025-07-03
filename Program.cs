@@ -13,7 +13,7 @@ Log.Logger = new LoggerConfiguration()
     .WriteTo.File("Log/log.txt", rollingInterval: RollingInterval.Day)
     .CreateLogger();
 
-// builder.Host.UseSerilog();
+builder.Host.UseSerilog();
 
 builder.Services.AddAuthentication(options =>
                 {
@@ -53,6 +53,8 @@ builder.Services.AddControllers();
 builder.Services.AddHttpContextAccessor(); 
 builder.Services.AddScoped(typeof(ActiveUser)); 
 builder.Services.AddScoped(typeof(JsonService<>));
+builder.Services.AddScoped(typeof(GenericService<>));
+builder.Services.AddLogging();
 builder.Services.AddItemsConst<Shoes>();
 builder.Services.AddItemsConst<User>();
 builder.Services.AddEndpointsApiExplorer();

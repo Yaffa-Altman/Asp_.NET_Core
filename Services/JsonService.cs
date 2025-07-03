@@ -10,8 +10,9 @@ public class JsonService<T>{
 
     public JsonService(IHostEnvironment env)
     {
-        filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
         _logger = LoggerFactory.Create(builder => builder.AddConsole()).CreateLogger<JsonService<T>>();
+        _logger.LogInformation($"start JsonService<{typeof(T).Name}> Constructor");
+        filePath = Path.Combine(env.ContentRootPath, "Data", fileName);
         using (var jsonFile = File.OpenText(filePath))
         {
             Items = JsonSerializer.Deserialize<List<T>>(jsonFile.ReadToEnd(),
@@ -20,12 +21,15 @@ public class JsonService<T>{
                 PropertyNameCaseInsensitive = true
             });
         }
+        _logger.LogInformation($"end JsonService<{typeof(T).Name}> Constructor");
     }
 
     public List<T> GetItems() => Items;
 
     public void saveToFile()
     {
+        _logger.LogInformation($"start JsonService<{typeof(T).Name}> saveToFile");
         File.WriteAllText(filePath, JsonSerializer.Serialize(Items));
+        _logger.LogInformation($"end JsonService<{typeof(T).Name}> saveToFile");
     }
 }

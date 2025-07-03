@@ -23,10 +23,10 @@ public class ShoesController : ControllerBase
     public ShoesController(IGenericService<Shoes> shoesService, ActiveUser au, ILogger<ShoesController> logger)
     {
         // System.Console.WriteLine("ctor controller");
+        _logger = logger;
         _logger.LogInformation("start shoesController constructor");
         this.shoesService = shoesService;
         this.activeUser = au;
-        _logger = logger;
         _logger.LogInformation("end shoesController constructor");
     }
 
@@ -109,10 +109,10 @@ public class ShoesController : ControllerBase
         }
 
         var tokenValue = token.ToString().Replace("Bearer ", "");
-        id = activeUser.GetActiveUser(tokenValue).Id;
+        var userId = activeUser.GetActiveUser(tokenValue).Id;
 
-        shoes.UserId = id;
-        bool result = shoesService.Update(id,shoes);
+        shoes.UserId = userId;
+        bool result = shoesService.Update(id, shoes);
         if(result){
             _logger.LogInformation("end shoesController Put");
             return NoContent();

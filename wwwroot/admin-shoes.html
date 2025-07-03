@@ -27,7 +27,7 @@
             if (parts.length === 2) return parts.pop().split(';').shift();
         }
 
-        fetchAllShoes = async() => {
+        fetchAllShoes = async () => {
             const token = getCookie('AuthToken');
             if (!token) return window.location.href = '/login.html';
 
@@ -54,23 +54,16 @@
                 }
             });
             const allUsers = await resUsers.json();
-            // allUsers.forEach(user => {
-            //     console.log(user);
-            // });
-            
+
             const allShoes = await res.json();
             const list = document.getElementById('allShoesList');
             list.innerHTML = '';
-            // console.log("!!!!!!!!!!!");
-            //   allShoes.forEach(user => {
-            //     console.log(user);
-            // });
-            
+
             allShoes.forEach(item => {
                 const li = document.createElement('li');
                 li.className = "list-group-item d-flex justify-content-between align-items-center";
                 li.innerHTML = `
-                    <span><b>${findUser(item,allUsers).name}:</b> ${item.name} <b>${showIsElegant(item.isElegant)}</b></span>
+                    <span><b>${findUser(item, allUsers).name}:</b> ${item.name} <b>${showIsElegant(item.isElegant)}</b></span>
                     <span>
                         <button onclick="editShoe(${item.id}, '${item.name}')" class="btn btn-sm btn-warning ms-2">ערוך</button>
                         <button onclick="deleteShoe(${item.id})" class="btn btn-sm btn-danger">מחק</button>
@@ -80,22 +73,30 @@
             });
         }
         showIsElegant = (isElegant) => {
-            if(isElegant)
+            if (isElegant)
                 return "Elegant";
             return "";
         }
-        
-        findUser = (item,allUsers) => {
+
+        findUser = (item, allUsers) => {
             const user = allUsers.find(user => user.id === item.userId);
             // console.log(user);
             // console.log(user.name);
-            return user ? user :"לא נמצא משתמש";
+            return user ? user : "לא נמצא משתמש";
         }
 
-        window.editShoe = async function(id, oldName) {
+        window.editShoe = async function (id, oldName) {
             const newName = prompt('שם חדש לנעל:', oldName);
-            // const newIsElegant = prompt('שם חדש לנעל:', oldName);
-            if (!newName) return;
+            if (!newName) {
+                console.log("absent new name");
+                return;
+            }
+            const isElegantStr = prompt('האם הנעל אלגנטית? (כן/לא):', 'כן');
+            if (isElegantStr === null) {
+                console.log("absent is elegent");
+                return;
+            }
+            const isElegant = isElegantStr.trim() === 'כן';
 
             const token = getCookie('AuthToken');
             await fetch('http://localhost:5187/Shoes/' + id, {
@@ -107,16 +108,16 @@
                 body: JSON.stringify({
                     Id: id,
                     Name: newName,
-                    isElegant: true,
+                    isElegant: isElegant,
                     UserId: 0
 
                 })
             });
             fetchAllShoes();
         };
-        
 
-        window.deleteShoe = async function(id) {
+
+        window.deleteShoe = async function (id) {
             const token = getCookie('AuthToken');
             await fetch('http://localhost:5187/Shoes/' + id, {
                 method: 'DELETE',

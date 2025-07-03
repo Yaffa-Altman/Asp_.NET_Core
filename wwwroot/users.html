@@ -44,7 +44,7 @@
         }
 
         fetchUsers = async() => {
-            const token = getCookie('token');
+            const token = getCookie('AuthToken');
             const res = await fetch('http://localhost:5187/User', {
                 headers: {
                     'Authorization': 'Bearer ' + token
@@ -60,7 +60,7 @@
                 li.innerHTML = `
                     <span>${user.name} <span class="badge bg-secondary">${user.type}</span></span>
                     <span>
-                        <button onclick="editUser(${user.id}, '${user.name}', '${user.type}')" class="btn btn-sm btn-warning ms-2">ערוך</button>
+                        <button onclick="editUser(${user.id}, '${user.name}', '${user.type}', '${user.password}')" class="btn btn-sm btn-warning ms-2">ערוך</button>
                         <button onclick="deleteUser(${user.id})" class="btn btn-sm btn-danger">מחק</button>
                     </span>
                 `;
@@ -70,7 +70,7 @@
 
         document.getElementById('addUserForm').onsubmit = async function(e) {
             e.preventDefault();
-            const token = getCookie('token');
+            const token = getCookie('AuthToken');
             await fetch('http://localhost:5187/User', {
                 method: 'POST',
                 headers: {
@@ -86,11 +86,13 @@
             fetchUsers();
         };
 
-        window.editUser = async function(id, oldName, oldType) {
+        window.editUser = async function(id, oldName, oldType, password) {
             const newName = prompt('שם חדש:', oldName);
             const newType = prompt('סוג חדש (USER/ADMIN):', oldType);
             if (!newName || !newType) return;
-            const token = getCookie('token');
+            const token = getCookie('AuthToken');
+            const newPassword = prompt('סיסמה חדשה (או ישנה):', password);
+            if (!newPassword) return;
             await fetch('http://localhost:5187/User/' + id, {
                 method: 'PUT',
                 headers: {
@@ -98,15 +100,17 @@
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    name: newName,
-                    type: newType
+                    Id: id,
+                    Name: newName,
+                    type: newType,
+                    Password: newPassword
                 })
             });
             fetchUsers();
         };
 
         window.deleteUser = async function(id) {
-            const token = getCookie('token');
+            const token = getCookie('AuthToken');
             await fetch('http://localhost:5187/User/' + id, {
                 method: 'DELETE',
                 headers: {

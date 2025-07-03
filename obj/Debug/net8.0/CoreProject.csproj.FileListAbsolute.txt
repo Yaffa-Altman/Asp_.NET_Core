@@ -673,7 +673,6 @@ C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\refin
 C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.pdb
 C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.genruntimeconfig.cache
 C:\Users\1\Desktop\מקצועות יד\core\Asp_.NET_Core\obj\Debug\net8.0\ref\CoreProject.dll
-
 C:\Users\The user\Desktop\תכנות\שנה ב\Core\Home Work\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.csproj.AssemblyReference.cache
 C:\Users\The user\Desktop\תכנות\שנה ב\Core\Home Work\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\The user\Desktop\תכנות\שנה ב\Core\Home Work\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.AssemblyInfoInputs.cache
@@ -733,4 +732,3 @@ C:\Users\The user\Desktop\תכנות\שנה ב\Core\Home Work\Asp_.NET_Core\obj\
 C:\Users\The user\Desktop\תכנות\שנה ב\Core\Home Work\Asp_.NET_Core\obj\Debug\net8.0\CoreProj.FF7014C9.Up2Date
 C:\Users\The user\Desktop\תכנות\שנה ב\Core\Home Work\Asp_.NET_Core\obj\Debug\net8.0\CoreProject.genruntimeconfig.cache
 C:\Users\The user\Desktop\תכנות\שנה ב\Core\Home Work\Asp_.NET_Core\obj\Debug\net8.0\ref\CoreProject.dll
-

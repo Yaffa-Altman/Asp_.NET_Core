@@ -10,10 +10,10 @@ public class GenericService<T> : IGenericService<T> where T : GenericId
     private readonly ILogger<GenericService<T>> _logger;
     List<T> Items { get; }
     public GenericService(IHostEnvironment env, ILogger<GenericService<T>> logger){
+        _logger = logger?? throw new ArgumentNullException(nameof(logger));
         _logger.LogInformation($"start GenericService<{typeof(T).Name}> Constructor");
         jsonService = new JsonService<T>(env);
         Items = jsonService.GetItems();
-        _logger = logger;
         _logger.LogInformation($"end GenericService<{typeof(T).Name}> Constructor");
     }
 
@@ -22,10 +22,6 @@ public class GenericService<T> : IGenericService<T> where T : GenericId
         return Items.FirstOrDefault(p => p.Id == id);
     }
     public List<T> Get() {
-        // Console.WriteLine("!!!!!!!!!!!!");
-        // Console.WriteLine(Items.Count);
-        // Items.ForEach(item => Console.WriteLine(item.Name));
-        // Console.WriteLine(Items)
         _logger.LogInformation($"in GenericService<{typeof(T).Name}> Get");
         return Items; 
     } 
@@ -48,7 +44,6 @@ public class GenericService<T> : IGenericService<T> where T : GenericId
     public bool Update(int id, T item)
     {
         _logger.LogInformation($"start GenericService<{typeof(T).Name}> Update");
-        // Console.WriteLine("-----------"+item.Id+"----"+id);
         if (item == null
             || string.IsNullOrWhiteSpace(item.Name)
             || item.Id != id
@@ -65,6 +60,24 @@ public class GenericService<T> : IGenericService<T> where T : GenericId
         }
         var index = Items.IndexOf(itm);
         itm.Name = item.Name;
+        if (typeof(T).Name == "User")
+        {
+            var passwordProp = typeof(T).GetProperty("Password");
+            var typeProp = typeof(T).GetProperty("type");
+            if (passwordProp != null && typeProp != null)
+            {
+                passwordProp.SetValue(itm, passwordProp.GetValue(item));
+                typeProp.SetValue(itm, typeProp.GetValue(item));
+            }
+        }
+        if (typeof(T).Name == "Shoes")
+        {
+            var isElegantProp = typeof(T).GetProperty("isElegant");
+            if (isElegantProp != null)
+            {
+                isElegantProp.SetValue(itm, isElegantProp.GetValue(item));
+            }
+        }
         Items[index] = itm;
         jsonService.saveToFile();
         _logger.LogInformation($"end GenericService<{typeof(T).Name}> Update");
