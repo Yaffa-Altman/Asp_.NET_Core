@@ -2032,3 +2032,675 @@ DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
 2025-07-03 14:03:20.985 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 10.8318ms
 2025-07-03 14:03:20.987 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
 2025-07-03 14:03:20.988 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 20.8603ms
+2025-07-03 14:06:25.234 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/shoes.html - null null
+2025-07-03 14:06:25.296 +03:00 [INF] Sending file. Request path: '/shoes.html'. Physical path: 'C:\Users\The user\Desktop\תכנות\שנה ב\Core\Home Work\Asp_.NET_Core\wwwroot\shoes.html'
+2025-07-03 14:06:25.300 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/shoes.html - 200 4885 text/html 65.9002ms
+2025-07-03 14:06:25.323 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:06:25.328 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:06:25.329 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:06:25.331 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:06:25.332 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:06:25.332 +03:00 [INF] start userController Constructor
+2025-07-03 14:06:25.333 +03:00 [INF] end userController Constructor
+2025-07-03 14:06:25.334 +03:00 [INF] start userController Get{6}
+2025-07-03 14:06:25.334 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:06:25.335 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:06:25.335 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:06:25.336 +03:00 [INF] end userController Get{6}
+2025-07-03 14:06:25.337 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:06:25.338 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 6.7273ms
+2025-07-03 14:06:25.339 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:06:25.339 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 16.5418ms
+2025-07-03 14:06:25.376 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:06:25.380 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:06:25.381 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:06:25.383 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:06:25.383 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:06:25.384 +03:00 [INF] start shoesController constructor
+2025-07-03 14:06:25.384 +03:00 [INF] end shoesController constructor
+2025-07-03 14:06:25.385 +03:00 [INF] start shoesController Get
+2025-07-03 14:06:25.386 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:06:25.386 +03:00 [INF] end shoesController Get
+2025-07-03 14:06:25.387 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:06:25.388 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 5.3154ms
+2025-07-03 14:06:25.389 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:06:25.390 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 14.133ms
+2025-07-03 14:06:29.323 +03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5187/Shoes/6 - application/json 28
+2025-07-03 14:06:29.326 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Put (CoreProject)'
+2025-07-03 14:06:29.327 +03:00 [INF] Route matched with {action = "Put", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Put(Int32, CoreProject.Models.Shoes) on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:06:29.329 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:06:29.330 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:06:29.330 +03:00 [INF] start shoesController constructor
+2025-07-03 14:06:29.331 +03:00 [INF] end shoesController constructor
+2025-07-03 14:06:29.332 +03:00 [INF] start shoesController Put
+2025-07-03 14:06:29.334 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:06:29.337 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:06:29.338 +03:00 [INF] start GenericService<Shoes> Update
+2025-07-03 14:06:29.340 +03:00 [INF] end GenericService<Shoes> Update
+2025-07-03 14:06:29.341 +03:00 [INF] end shoesController Put
+2025-07-03 14:06:29.342 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-07-03 14:06:29.344 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Put (CoreProject) in 14.8912ms
+2025-07-03 14:06:29.346 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Put (CoreProject)'
+2025-07-03 14:06:29.349 +03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5187/Shoes/6 - 204 null null 26.4688ms
+2025-07-03 14:06:29.354 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:06:29.359 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:06:29.362 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:06:29.365 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:06:29.366 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:06:29.368 +03:00 [INF] start userController Constructor
+2025-07-03 14:06:29.369 +03:00 [INF] end userController Constructor
+2025-07-03 14:06:29.370 +03:00 [INF] start userController Get{6}
+2025-07-03 14:06:29.372 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:06:29.373 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:06:29.374 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:06:29.375 +03:00 [INF] end userController Get{6}
+2025-07-03 14:06:29.377 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:06:29.378 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 13.4033ms
+2025-07-03 14:06:29.380 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:06:29.381 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 26.4771ms
+2025-07-03 14:06:29.383 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:06:29.386 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:06:29.387 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:06:29.389 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:06:29.390 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:06:29.392 +03:00 [INF] start shoesController constructor
+2025-07-03 14:06:29.394 +03:00 [INF] end shoesController constructor
+2025-07-03 14:06:29.395 +03:00 [INF] start shoesController Get
+2025-07-03 14:06:29.395 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:06:29.396 +03:00 [INF] end shoesController Get
+2025-07-03 14:06:29.397 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:06:29.399 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 10.0834ms
+2025-07-03 14:06:29.400 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:06:29.401 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 17.5229ms
+2025-07-03 14:06:34.459 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/shoes.html - null null
+2025-07-03 14:06:34.462 +03:00 [INF] The file /shoes.html was not modified
+2025-07-03 14:06:34.463 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/shoes.html - 304 null text/html 4.6732ms
+2025-07-03 14:06:34.484 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:06:34.489 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:06:34.491 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:06:34.494 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:06:34.495 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:06:34.495 +03:00 [INF] start userController Constructor
+2025-07-03 14:06:34.496 +03:00 [INF] end userController Constructor
+2025-07-03 14:06:34.498 +03:00 [INF] start userController Get{6}
+2025-07-03 14:06:34.500 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:06:34.501 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:06:34.503 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:06:34.505 +03:00 [INF] end userController Get{6}
+2025-07-03 14:06:34.506 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:06:34.508 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 14.2873ms
+2025-07-03 14:06:34.510 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:06:34.511 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 26.9288ms
+2025-07-03 14:06:34.514 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:06:34.516 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:06:34.518 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:06:34.520 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:06:34.522 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:06:34.523 +03:00 [INF] start shoesController constructor
+2025-07-03 14:06:34.523 +03:00 [INF] end shoesController constructor
+2025-07-03 14:06:34.524 +03:00 [INF] start shoesController Get
+2025-07-03 14:06:34.525 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:06:34.526 +03:00 [INF] end shoesController Get
+2025-07-03 14:06:34.527 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:06:34.528 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 8.4338ms
+2025-07-03 14:06:34.530 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:06:34.531 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 16.8518ms
+2025-07-03 14:12:57.375 +03:00 [INF] Application is shutting down...
+2025-07-03 14:32:27.418 +03:00 [INF] User profile is available. Using 'C:\Users\The user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-03 14:32:27.508 +03:00 [INF] Now listening on: http://localhost:5187
+2025-07-03 14:32:27.513 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-03 14:32:27.514 +03:00 [INF] Hosting environment: Development
+2025-07-03 14:32:27.516 +03:00 [INF] Content root path: C:\Users\The user\Desktop\תכנות\שנה ב\Core\Home Work\Asp_.NET_Core
+2025-07-03 14:32:38.162 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/ - null null
+2025-07-03 14:32:38.230 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-03 14:32:38.294 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-07-03 14:32:38.306 +03:00 [INF] Executing RedirectResult, redirecting to /login.html.
+2025-07-03 14:32:38.312 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-07-03 14:32:38.327 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/ - 302 0 null 166.7994ms
+2025-07-03 14:32:38.351 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/login.html - null null
+2025-07-03 14:32:38.371 +03:00 [INF] The file /login.html was not modified
+2025-07-03 14:32:38.373 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/login.html - 304 null text/html 22.4905ms
+2025-07-03 14:32:54.916 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5187/Login/Login - application/json 39
+2025-07-03 14:32:54.936 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.LoginController.Login (CoreProject)'
+2025-07-03 14:32:54.970 +03:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(CoreProject.Models.User) on controller CoreProject.Controllers.LoginController (CoreProject).
+2025-07-03 14:32:54.981 +03:00 [INF] start GenericService<User> Constructor
+2025-07-03 14:32:55.019 +03:00 [INF] end GenericService<User> Constructor
+2025-07-03 14:32:55.028 +03:00 [INF] start LoginController Constructor
+2025-07-03 14:32:55.030 +03:00 [INF] end LoginController Constructor
+2025-07-03 14:32:55.057 +03:00 [INF] start LoginController Login
+2025-07-03 14:32:55.063 +03:00 [INF] in LoginController Login - Unauthorized
+2025-07-03 14:32:55.070 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-07-03 14:32:55.083 +03:00 [INF] Executed action CoreProject.Controllers.LoginController.Login (CoreProject) in 99.867ms
+2025-07-03 14:32:55.091 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.LoginController.Login (CoreProject)'
+2025-07-03 14:32:55.097 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5187/Login/Login - 401 0 null 181.4394ms
+2025-07-03 14:33:02.301 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5187/Login/Login - application/json 39
+2025-07-03 14:33:02.310 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.LoginController.Login (CoreProject)'
+2025-07-03 14:33:02.315 +03:00 [INF] Route matched with {action = "Login", controller = "Login"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.String] Login(CoreProject.Models.User) on controller CoreProject.Controllers.LoginController (CoreProject).
+2025-07-03 14:33:02.326 +03:00 [INF] start LoginController Constructor
+2025-07-03 14:33:02.328 +03:00 [INF] end LoginController Constructor
+2025-07-03 14:33:02.337 +03:00 [INF] start LoginController Login
+2025-07-03 14:33:02.339 +03:00 [INF] in LoginController Login - user USER
+2025-07-03 14:33:02.388 +03:00 [INF] end LoginController Login
+2025-07-03 14:33:02.397 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2025-07-03 14:33:02.403 +03:00 [INF] Executed action CoreProject.Controllers.LoginController.Login (CoreProject) in 81.6078ms
+2025-07-03 14:33:02.406 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.LoginController.Login (CoreProject)'
+2025-07-03 14:33:02.408 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5187/Login/Login - 200 null text/plain; charset=utf-8 106.4693ms
+2025-07-03 14:33:02.414 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/5 - null null
+2025-07-03 14:33:02.478 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:33:02.485 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:33:02.488 +03:00 [INF] start GenericService<Shoes> Constructor
+2025-07-03 14:33:02.503 +03:00 [INF] end GenericService<Shoes> Constructor
+2025-07-03 14:33:02.507 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:33:02.508 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:33:02.510 +03:00 [INF] start userController Constructor
+2025-07-03 14:33:02.511 +03:00 [INF] end userController Constructor
+2025-07-03 14:33:02.515 +03:00 [INF] start userController Get{5}
+2025-07-03 14:33:02.518 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:33:02.522 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:33:02.524 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:33:02.526 +03:00 [INF] end userController Get{5}
+2025-07-03 14:33:02.528 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:33:02.536 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 47.6713ms
+2025-07-03 14:33:02.538 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:33:02.539 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/5 - 200 null application/json; charset=utf-8 125.6494ms
+2025-07-03 14:33:02.555 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/shoes.html - null null
+2025-07-03 14:33:02.560 +03:00 [INF] The file /shoes.html was not modified
+2025-07-03 14:33:02.561 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/shoes.html - 304 null text/html 6.385ms
+2025-07-03 14:33:02.594 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:33:02.605 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:33:02.607 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:33:02.612 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:33:02.615 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:33:02.619 +03:00 [INF] start userController Constructor
+2025-07-03 14:33:02.622 +03:00 [INF] end userController Constructor
+2025-07-03 14:33:02.625 +03:00 [INF] start userController Get{6}
+2025-07-03 14:33:02.630 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:33:02.634 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:33:02.637 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:33:02.642 +03:00 [INF] end userController Get{6}
+2025-07-03 14:33:02.646 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:33:02.653 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 42.0659ms
+2025-07-03 14:33:02.659 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:33:02.662 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 67.6992ms
+2025-07-03 14:33:02.670 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:33:02.678 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:33:02.683 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:33:02.691 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:33:02.694 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:33:02.699 +03:00 [INF] start shoesController constructor
+2025-07-03 14:33:02.702 +03:00 [INF] end shoesController constructor
+2025-07-03 14:33:02.705 +03:00 [INF] start shoesController Get
+2025-07-03 14:33:02.707 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:33:02.710 +03:00 [INF] end shoesController Get
+2025-07-03 14:33:02.712 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:33:02.723 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 34.5474ms
+2025-07-03 14:33:02.727 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:33:02.729 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 58.763ms
+2025-07-03 14:33:12.551 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5187/Shoes - application/json 19
+2025-07-03 14:33:12.556 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Post (CoreProject)'
+2025-07-03 14:33:12.563 +03:00 [INF] Route matched with {action = "Post", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Post(CoreProject.Models.Shoes) on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:33:12.566 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:33:12.572 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:33:12.573 +03:00 [INF] start shoesController constructor
+2025-07-03 14:33:12.577 +03:00 [INF] end shoesController constructor
+2025-07-03 14:33:12.583 +03:00 [INF] start shoesController Post
+2025-07-03 14:33:12.589 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:33:12.593 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:33:12.596 +03:00 [INF] start GenericService<Shoes> Add
+2025-07-03 14:33:12.603 +03:00 [INF] end GenericService<Shoes> Add
+2025-07-03 14:33:12.605 +03:00 [INF] end shoesController Post
+2025-07-03 14:33:12.608 +03:00 [INF] Executing CreatedAtActionResult, writing value of type '<>f__AnonymousType0`1[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-03 14:33:12.637 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Post (CoreProject) in 70.7575ms
+2025-07-03 14:33:12.641 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Post (CoreProject)'
+2025-07-03 14:33:12.643 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:33:12.643 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5187/Shoes - 201 null application/json; charset=utf-8 92.1497ms
+2025-07-03 14:33:12.648 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:33:12.652 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:33:12.654 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:33:12.655 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:33:12.656 +03:00 [INF] start userController Constructor
+2025-07-03 14:33:12.656 +03:00 [INF] end userController Constructor
+2025-07-03 14:33:12.657 +03:00 [INF] start userController Get{6}
+2025-07-03 14:33:12.658 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:33:12.659 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:33:12.660 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:33:12.661 +03:00 [INF] end userController Get{6}
+2025-07-03 14:33:12.661 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:33:12.663 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 9.3959ms
+2025-07-03 14:33:12.665 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:33:12.666 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 23.6717ms
+2025-07-03 14:33:12.669 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:33:12.673 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:33:12.673 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:33:12.675 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:33:12.675 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:33:12.676 +03:00 [INF] start shoesController constructor
+2025-07-03 14:33:12.676 +03:00 [INF] end shoesController constructor
+2025-07-03 14:33:12.677 +03:00 [INF] start shoesController Get
+2025-07-03 14:33:12.677 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:33:12.678 +03:00 [INF] end shoesController Get
+2025-07-03 14:33:12.679 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:33:12.682 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 6.835ms
+2025-07-03 14:33:12.683 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:33:12.685 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 15.5486ms
+2025-07-03 14:33:20.312 +03:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5187/Shoes/7 - application/json 28
+2025-07-03 14:33:20.322 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Put (CoreProject)'
+2025-07-03 14:33:20.335 +03:00 [INF] Route matched with {action = "Put", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Put(Int32, CoreProject.Models.Shoes) on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:33:20.347 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:33:20.352 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:33:20.359 +03:00 [INF] start shoesController constructor
+2025-07-03 14:33:20.365 +03:00 [INF] end shoesController constructor
+2025-07-03 14:33:20.372 +03:00 [INF] start shoesController Put
+2025-07-03 14:33:20.378 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:33:20.382 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:33:20.390 +03:00 [INF] start GenericService<Shoes> Update
+2025-07-03 14:33:20.399 +03:00 [INF] end GenericService<Shoes> Update
+2025-07-03 14:33:20.403 +03:00 [INF] end shoesController Put
+2025-07-03 14:33:20.410 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-07-03 14:33:20.418 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Put (CoreProject) in 70.6492ms
+2025-07-03 14:33:20.426 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Put (CoreProject)'
+2025-07-03 14:33:20.432 +03:00 [INF] Request finished HTTP/1.1 PUT http://localhost:5187/Shoes/7 - 204 null null 119.7979ms
+2025-07-03 14:33:20.444 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:33:20.456 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:33:20.460 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:33:20.468 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:33:20.470 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:33:20.472 +03:00 [INF] start userController Constructor
+2025-07-03 14:33:20.476 +03:00 [INF] end userController Constructor
+2025-07-03 14:33:20.480 +03:00 [INF] start userController Get{6}
+2025-07-03 14:33:20.483 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:33:20.488 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:33:20.490 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:33:20.492 +03:00 [INF] end userController Get{6}
+2025-07-03 14:33:20.494 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:33:20.499 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 31.0211ms
+2025-07-03 14:33:20.502 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:33:20.505 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 60.7712ms
+2025-07-03 14:33:20.510 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:33:20.517 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:33:20.519 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:33:20.521 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:33:20.522 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:33:20.523 +03:00 [INF] start shoesController constructor
+2025-07-03 14:33:20.524 +03:00 [INF] end shoesController constructor
+2025-07-03 14:33:20.525 +03:00 [INF] start shoesController Get
+2025-07-03 14:33:20.526 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:33:20.527 +03:00 [INF] end shoesController Get
+2025-07-03 14:33:20.528 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:33:20.531 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 10.4289ms
+2025-07-03 14:33:20.534 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:33:20.535 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 25.1815ms
+2025-07-03 14:33:23.979 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5187/Shoes/7 - null null
+2025-07-03 14:33:23.985 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Delete (CoreProject)'
+2025-07-03 14:33:23.989 +03:00 [INF] Route matched with {action = "Delete", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Delete(Int32) on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:33:23.998 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:33:24.001 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:33:24.002 +03:00 [INF] start shoesController constructor
+2025-07-03 14:33:24.004 +03:00 [INF] end shoesController constructor
+2025-07-03 14:33:24.008 +03:00 [INF] start shoesController Delete
+2025-07-03 14:33:24.014 +03:00 [INF] start GenericService<Shoes> Delete
+2025-07-03 14:33:24.016 +03:00 [INF] in GenericService<Shoes> Get+id+
+2025-07-03 14:33:24.019 +03:00 [INF] end GenericService<Shoes> Delete
+2025-07-03 14:33:24.022 +03:00 [INF] end shoesController Delete
+2025-07-03 14:33:24.024 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-07-03 14:33:24.027 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Delete (CoreProject) in 29.3006ms
+2025-07-03 14:33:24.031 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Delete (CoreProject)'
+2025-07-03 14:33:24.038 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5187/Shoes/7 - 200 0 null 58.9509ms
+2025-07-03 14:33:24.045 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:33:24.051 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:33:24.052 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:33:24.054 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:33:24.054 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:33:24.055 +03:00 [INF] start userController Constructor
+2025-07-03 14:33:24.056 +03:00 [INF] end userController Constructor
+2025-07-03 14:33:24.057 +03:00 [INF] start userController Get{6}
+2025-07-03 14:33:24.058 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:33:24.059 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:33:24.060 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:33:24.060 +03:00 [INF] end userController Get{6}
+2025-07-03 14:33:24.061 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:33:24.066 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 12.3505ms
+2025-07-03 14:33:24.068 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:33:24.069 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 24.0435ms
+2025-07-03 14:33:24.073 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:33:24.076 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:33:24.077 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:33:24.080 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:33:24.083 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:33:24.085 +03:00 [INF] start shoesController constructor
+2025-07-03 14:33:24.086 +03:00 [INF] end shoesController constructor
+2025-07-03 14:33:24.086 +03:00 [INF] start shoesController Get
+2025-07-03 14:33:24.087 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:33:24.087 +03:00 [INF] end shoesController Get
+2025-07-03 14:33:24.088 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:33:24.089 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 9.8715ms
+2025-07-03 14:33:24.091 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:33:24.092 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 19.0653ms
+2025-07-03 14:34:01.055 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/shoes.html - null null
+2025-07-03 14:34:01.060 +03:00 [INF] The file /shoes.html was not modified
+2025-07-03 14:34:01.063 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/shoes.html - 304 null text/html 8.0188ms
+2025-07-03 14:34:01.094 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:34:01.100 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:01.104 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:34:01.109 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:01.111 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:01.112 +03:00 [INF] start userController Constructor
+2025-07-03 14:34:01.114 +03:00 [INF] end userController Constructor
+2025-07-03 14:34:01.115 +03:00 [INF] start userController Get{6}
+2025-07-03 14:34:01.116 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:34:01.118 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:34:01.119 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:34:01.120 +03:00 [INF] end userController Get{6}
+2025-07-03 14:34:01.122 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:34:01.124 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 14.5119ms
+2025-07-03 14:34:01.126 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:01.128 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 33.2643ms
+2025-07-03 14:34:01.132 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:34:01.137 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:34:01.139 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:34:01.143 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:01.145 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:01.146 +03:00 [INF] start shoesController constructor
+2025-07-03 14:34:01.147 +03:00 [INF] end shoesController constructor
+2025-07-03 14:34:01.148 +03:00 [INF] start shoesController Get
+2025-07-03 14:34:01.148 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:34:01.149 +03:00 [INF] end shoesController Get
+2025-07-03 14:34:01.150 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:34:01.152 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 9.1014ms
+2025-07-03 14:34:01.154 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:34:01.155 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 23.0258ms
+2025-07-03 14:34:03.854 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/ - null null
+2025-07-03 14:34:03.863 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-07-03 14:34:03.866 +03:00 [INF] Executing RedirectResult, redirecting to /login.html.
+2025-07-03 14:34:03.869 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-07-03 14:34:03.875 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/ - 302 0 null 20.3522ms
+2025-07-03 14:34:04.002 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:34:04.007 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:04.009 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:34:04.012 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:04.014 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:04.015 +03:00 [INF] start userController Constructor
+2025-07-03 14:34:04.016 +03:00 [INF] end userController Constructor
+2025-07-03 14:34:04.017 +03:00 [INF] start userController Get{6}
+2025-07-03 14:34:04.018 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:34:04.019 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:34:04.020 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:34:04.021 +03:00 [INF] end userController Get{6}
+2025-07-03 14:34:04.023 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:34:04.025 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 12.7688ms
+2025-07-03 14:34:04.028 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:04.030 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 27.4008ms
+2025-07-03 14:34:04.267 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:34:04.276 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:04.278 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:34:04.283 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:04.286 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:04.288 +03:00 [INF] start userController Constructor
+2025-07-03 14:34:04.289 +03:00 [INF] end userController Constructor
+2025-07-03 14:34:04.292 +03:00 [INF] start userController Get{6}
+2025-07-03 14:34:04.294 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:34:04.296 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:34:04.298 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:34:04.301 +03:00 [INF] end userController Get{6}
+2025-07-03 14:34:04.304 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:34:04.308 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 24.7087ms
+2025-07-03 14:34:04.313 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:04.317 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 49.6693ms
+2025-07-03 14:34:04.414 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:34:04.420 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:34:04.421 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:34:04.424 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:04.426 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:04.429 +03:00 [INF] start shoesController constructor
+2025-07-03 14:34:04.432 +03:00 [INF] end shoesController constructor
+2025-07-03 14:34:04.434 +03:00 [INF] start shoesController Get
+2025-07-03 14:34:04.435 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:34:04.436 +03:00 [INF] end shoesController Get
+2025-07-03 14:34:04.437 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:34:04.439 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 15.1917ms
+2025-07-03 14:34:04.442 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:34:04.445 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 31.787ms
+2025-07-03 14:34:09.171 +03:00 [INF] Application is shutting down...
+2025-07-03 14:34:12.803 +03:00 [INF] User profile is available. Using 'C:\Users\The user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-03 14:34:12.885 +03:00 [INF] Now listening on: http://localhost:5187
+2025-07-03 14:34:12.890 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-03 14:34:12.891 +03:00 [INF] Hosting environment: Development
+2025-07-03 14:34:12.892 +03:00 [INF] Content root path: C:\Users\The user\Desktop\תכנות\שנה ב\Core\Home Work\Asp_.NET_Core
+2025-07-03 14:34:17.254 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/ - null null
+2025-07-03 14:34:17.309 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-03 14:34:17.349 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-07-03 14:34:17.359 +03:00 [INF] Executing RedirectResult, redirecting to /login.html.
+2025-07-03 14:34:17.366 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-07-03 14:34:17.378 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/ - 302 0 null 124.7619ms
+2025-07-03 14:34:17.517 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:34:17.580 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:17.598 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:34:17.604 +03:00 [INF] start GenericService<User> Constructor
+2025-07-03 14:34:17.645 +03:00 [INF] end GenericService<User> Constructor
+2025-07-03 14:34:17.649 +03:00 [INF] start GenericService<Shoes> Constructor
+2025-07-03 14:34:17.658 +03:00 [INF] end GenericService<Shoes> Constructor
+2025-07-03 14:34:17.661 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:17.663 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:17.666 +03:00 [INF] start userController Constructor
+2025-07-03 14:34:17.668 +03:00 [INF] end userController Constructor
+2025-07-03 14:34:17.677 +03:00 [INF] start userController Get{6}
+2025-07-03 14:34:17.681 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:34:17.684 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:34:17.686 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:34:17.687 +03:00 [INF] end userController Get{6}
+2025-07-03 14:34:17.693 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:34:17.703 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 97.5277ms
+2025-07-03 14:34:17.705 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:17.706 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 188.8259ms
+2025-07-03 14:34:17.724 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/admin-shoes.html - null null
+2025-07-03 14:34:17.743 +03:00 [INF] The file /admin-shoes.html was not modified
+2025-07-03 14:34:17.748 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/admin-shoes.html - 304 null text/html 24.5751ms
+2025-07-03 14:34:17.790 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:34:17.802 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:17.805 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:34:17.811 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:17.814 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:17.817 +03:00 [INF] start userController Constructor
+2025-07-03 14:34:17.820 +03:00 [INF] end userController Constructor
+2025-07-03 14:34:17.825 +03:00 [INF] start userController Get{6}
+2025-07-03 14:34:17.829 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:34:17.833 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:34:17.834 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:34:17.835 +03:00 [INF] end userController Get{6}
+2025-07-03 14:34:17.836 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:34:17.839 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 28.2311ms
+2025-07-03 14:34:17.841 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:17.842 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 52.6474ms
+2025-07-03 14:34:17.847 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:34:17.854 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:34:17.857 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:34:17.862 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:17.863 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:17.865 +03:00 [INF] start shoesController constructor
+2025-07-03 14:34:17.866 +03:00 [INF] end shoesController constructor
+2025-07-03 14:34:17.868 +03:00 [INF] start shoesController Get
+2025-07-03 14:34:17.869 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:34:17.870 +03:00 [INF] end shoesController Get
+2025-07-03 14:34:17.871 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:34:17.876 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 15.3123ms
+2025-07-03 14:34:17.879 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:34:17.880 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User - null null
+2025-07-03 14:34:17.881 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 33.9675ms
+2025-07-03 14:34:17.886 +03:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (ADMIN)
+2025-07-03 14:34:17.892 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-07-03 14:34:17.894 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User - 403 0 null 13.965ms
+2025-07-03 14:34:20.457 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/admin-shoes.html - null null
+2025-07-03 14:34:20.461 +03:00 [INF] The file /admin-shoes.html was not modified
+2025-07-03 14:34:20.462 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/admin-shoes.html - 304 null text/html 4.7549ms
+2025-07-03 14:34:20.481 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:34:20.488 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:20.491 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:34:20.496 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:20.498 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:20.500 +03:00 [INF] start userController Constructor
+2025-07-03 14:34:20.501 +03:00 [INF] end userController Constructor
+2025-07-03 14:34:20.503 +03:00 [INF] start userController Get{6}
+2025-07-03 14:34:20.504 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:34:20.506 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:34:20.506 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:34:20.507 +03:00 [INF] end userController Get{6}
+2025-07-03 14:34:20.509 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:34:20.512 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 16.01ms
+2025-07-03 14:34:20.514 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:20.515 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 33.6501ms
+2025-07-03 14:34:20.519 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:34:20.523 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:34:20.524 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:34:20.528 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:20.529 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:20.531 +03:00 [INF] start shoesController constructor
+2025-07-03 14:34:20.532 +03:00 [INF] end shoesController constructor
+2025-07-03 14:34:20.533 +03:00 [INF] start shoesController Get
+2025-07-03 14:34:20.534 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:34:20.535 +03:00 [INF] end shoesController Get
+2025-07-03 14:34:20.535 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:34:20.537 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 8.6833ms
+2025-07-03 14:34:20.540 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:34:20.540 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User - null null
+2025-07-03 14:34:20.541 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 22.4986ms
+2025-07-03 14:34:20.547 +03:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (ADMIN)
+2025-07-03 14:34:20.551 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-07-03 14:34:20.552 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User - 403 0 null 11.9286ms
+2025-07-03 14:34:24.435 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/users.html - null null
+2025-07-03 14:34:24.442 +03:00 [INF] The file /users.html was not modified
+2025-07-03 14:34:24.446 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/users.html - 304 null text/html 10.5623ms
+2025-07-03 14:34:24.479 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User - null null
+2025-07-03 14:34:24.487 +03:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (ADMIN)
+2025-07-03 14:34:24.488 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-07-03 14:34:24.490 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User - 403 0 null 10.5807ms
+2025-07-03 14:34:33.357 +03:00 [INF] Application is shutting down...
+2025-07-03 14:34:36.809 +03:00 [INF] User profile is available. Using 'C:\Users\The user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-03 14:34:36.890 +03:00 [INF] Now listening on: http://localhost:5187
+2025-07-03 14:34:36.893 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-03 14:34:36.894 +03:00 [INF] Hosting environment: Development
+2025-07-03 14:34:36.895 +03:00 [INF] Content root path: C:\Users\The user\Desktop\תכנות\שנה ב\Core\Home Work\Asp_.NET_Core
+2025-07-03 14:34:46.058 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/ - null null
+2025-07-03 14:34:46.097 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-07-03 14:34:46.119 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-07-03 14:34:46.123 +03:00 [INF] Executing RedirectResult, redirecting to /login.html.
+2025-07-03 14:34:46.126 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-07-03 14:34:46.133 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/ - 302 0 null 75.6953ms
+2025-07-03 14:34:46.203 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:34:46.263 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:46.288 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:34:46.293 +03:00 [INF] start GenericService<User> Constructor
+2025-07-03 14:34:46.322 +03:00 [INF] end GenericService<User> Constructor
+2025-07-03 14:34:46.324 +03:00 [INF] start GenericService<Shoes> Constructor
+2025-07-03 14:34:46.336 +03:00 [INF] end GenericService<Shoes> Constructor
+2025-07-03 14:34:46.338 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:46.339 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:46.342 +03:00 [INF] start userController Constructor
+2025-07-03 14:34:46.343 +03:00 [INF] end userController Constructor
+2025-07-03 14:34:46.355 +03:00 [INF] start userController Get{6}
+2025-07-03 14:34:46.359 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:34:46.362 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:34:46.367 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:34:46.370 +03:00 [INF] end userController Get{6}
+2025-07-03 14:34:46.380 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:34:46.391 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 98.2187ms
+2025-07-03 14:34:46.395 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:46.397 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 194.317ms
+2025-07-03 14:34:46.430 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:34:46.440 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:46.443 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:34:46.448 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:46.450 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:46.451 +03:00 [INF] start userController Constructor
+2025-07-03 14:34:46.452 +03:00 [INF] end userController Constructor
+2025-07-03 14:34:46.454 +03:00 [INF] start userController Get{6}
+2025-07-03 14:34:46.455 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:34:46.456 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:34:46.456 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:34:46.457 +03:00 [INF] end userController Get{6}
+2025-07-03 14:34:46.459 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:34:46.463 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 15.5667ms
+2025-07-03 14:34:46.465 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:34:46.466 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 36.2729ms
+2025-07-03 14:34:46.469 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:34:46.474 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:34:46.479 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:34:46.482 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:34:46.483 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:34:46.484 +03:00 [INF] start shoesController constructor
+2025-07-03 14:34:46.485 +03:00 [INF] end shoesController constructor
+2025-07-03 14:34:46.486 +03:00 [INF] start shoesController Get
+2025-07-03 14:34:46.487 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:34:46.488 +03:00 [INF] end shoesController Get
+2025-07-03 14:34:46.489 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:34:46.494 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 12.8493ms
+2025-07-03 14:34:46.496 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:34:46.497 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User - null null
+2025-07-03 14:34:46.498 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 28.856ms
+2025-07-03 14:34:46.502 +03:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (ADMIN)
+2025-07-03 14:34:46.504 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-07-03 14:34:46.505 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User - 403 0 null 7.7699ms
+2025-07-03 14:35:02.682 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/ - null null
+2025-07-03 14:35:02.688 +03:00 [INF] Executing endpoint 'HTTP: GET /'
+2025-07-03 14:35:02.692 +03:00 [INF] Executing RedirectResult, redirecting to /login.html.
+2025-07-03 14:35:02.696 +03:00 [INF] Executed endpoint 'HTTP: GET /'
+2025-07-03 14:35:02.701 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/ - 302 0 null 18.9142ms
+2025-07-03 14:35:02.820 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:35:02.831 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:35:02.834 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:35:02.839 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:35:02.841 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:35:02.843 +03:00 [INF] start userController Constructor
+2025-07-03 14:35:02.846 +03:00 [INF] end userController Constructor
+2025-07-03 14:35:02.849 +03:00 [INF] start userController Get{6}
+2025-07-03 14:35:02.852 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:35:02.856 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:35:02.860 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:35:02.863 +03:00 [INF] end userController Get{6}
+2025-07-03 14:35:02.867 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:35:02.872 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 33.8159ms
+2025-07-03 14:35:02.877 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:35:02.883 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 62.7721ms
+2025-07-03 14:35:03.137 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User/6 - null null
+2025-07-03 14:35:03.146 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:35:03.149 +03:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[CoreProject.Models.User] Get(Int32) on controller CoreProject.Controllers.UserController (CoreProject).
+2025-07-03 14:35:03.157 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:35:03.162 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:35:03.165 +03:00 [INF] start userController Constructor
+2025-07-03 14:35:03.167 +03:00 [INF] end userController Constructor
+2025-07-03 14:35:03.169 +03:00 [INF] start userController Get{6}
+2025-07-03 14:35:03.172 +03:00 [INF] start ActiveUser GetActiveUser
+2025-07-03 14:35:03.175 +03:00 [INF] end ActiveUser GetActiveUser
+2025-07-03 14:35:03.178 +03:00 [INF] in GenericService<User> Get+id+
+2025-07-03 14:35:03.181 +03:00 [INF] end userController Get{6}
+2025-07-03 14:35:03.184 +03:00 [INF] Executing ObjectResult, writing value of type 'CoreProject.Models.User'.
+2025-07-03 14:35:03.187 +03:00 [INF] Executed action CoreProject.Controllers.UserController.Get (CoreProject) in 29.5261ms
+2025-07-03 14:35:03.191 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.UserController.Get (CoreProject)'
+2025-07-03 14:35:03.194 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User/6 - 200 null application/json; charset=utf-8 57.1258ms
+2025-07-03 14:35:03.229 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/Shoes - null null
+2025-07-03 14:35:03.240 +03:00 [INF] Executing endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:35:03.244 +03:00 [INF] Route matched with {action = "Get", controller = "Shoes"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CoreProject.Models.Shoes]] Get() on controller CoreProject.Controllers.ShoesController (CoreProject).
+2025-07-03 14:35:03.249 +03:00 [INF] start ActiveUser Constructor
+2025-07-03 14:35:03.250 +03:00 [INF] end ActiveUser Constructor
+2025-07-03 14:35:03.251 +03:00 [INF] start shoesController constructor
+2025-07-03 14:35:03.252 +03:00 [INF] end shoesController constructor
+2025-07-03 14:35:03.253 +03:00 [INF] start shoesController Get
+2025-07-03 14:35:03.254 +03:00 [INF] in GenericService<Shoes> Get
+2025-07-03 14:35:03.255 +03:00 [INF] end shoesController Get
+2025-07-03 14:35:03.257 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[CoreProject.Models.Shoes, CoreProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-03 14:35:03.260 +03:00 [INF] Executed action CoreProject.Controllers.ShoesController.Get (CoreProject) in 10.9961ms
+2025-07-03 14:35:03.263 +03:00 [INF] Executed endpoint 'CoreProject.Controllers.ShoesController.Get (CoreProject)'
+2025-07-03 14:35:03.266 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/Shoes - 200 null application/json; charset=utf-8 36.0248ms
+2025-07-03 14:35:03.271 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User - null null
+2025-07-03 14:35:03.277 +03:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (ADMIN)
+2025-07-03 14:35:03.280 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-07-03 14:35:03.282 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User - 403 0 null 10.148ms
+2025-07-03 14:35:09.686 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5187/User - null null
+2025-07-03 14:35:09.703 +03:00 [INF] Authorization failed. These requirements were not met:
+ClaimsAuthorizationRequirement:Claim.Type=type and Claim.Value is one of the following values: (ADMIN)
+2025-07-03 14:35:09.707 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-07-03 14:35:09.713 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5187/User - 403 0 null 27.5121ms

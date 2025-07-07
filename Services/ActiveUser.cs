@@ -14,11 +14,11 @@ public class ActiveUser
     public ActiveUser(IHttpContextAccessor httpContextAccessor, ILogger<ActiveUser> logger)
     {
         _logger = logger;
-        _logger.LogInformation("start ActiveUser Constructor");
+        _logger.LogInformation($"start ActiveUser Constructor");
         this.user = new User();
         _httpContextAccessor = httpContextAccessor;
         // GetTokenFromCookies();
-        _logger.LogInformation("end ActiveUser Constructor");
+        _logger.LogInformation($"end ActiveUser Constructor, user = {user.Name}");
     }
 
     // public void GetTokenFromCookies()
@@ -49,7 +49,7 @@ public class ActiveUser
 
     public User GetActiveUser(string token)
     {
-        _logger.LogInformation("start ActiveUser GetActiveUser");
+        _logger.LogInformation($"start ActiveUser GetActiveUser, user = {user.Name}");
         var handler = new JwtSecurityTokenHandler();
 
         // פענוח הטוקן
@@ -62,10 +62,10 @@ public class ActiveUser
         this.user.type = claims["type"];
         if (user == null)
         {
-            _logger.LogInformation("in ActiveUser GetActiveUser - User is not authorized.");
+            _logger.LogInformation($"in ActiveUser GetActiveUser - User is not authorized, user = {user.Name}");
             throw new UnauthorizedAccessException("User is not authorized.");
         }
-        _logger.LogInformation("end ActiveUser GetActiveUser");
+        _logger.LogInformation($"end ActiveUser GetActiveUser, user = {user.Name}");
         return user;
     }
 }
